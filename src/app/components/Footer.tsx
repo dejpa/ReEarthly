@@ -2,12 +2,31 @@
 
 import Link from 'next/link'
 import { useTranslations, useLocale } from 'next-intl'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faInstagram, faXTwitter, faLinkedin } from '@fortawesome/free-brands-svg-icons'
+import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
 import { footerSections as footerSectionsConfig, socialLinks, legalLinks } from '@/src/app/constants/navLinks'
 
 export default function Footer() {
   const currentYear = new Date().getFullYear()
   const t = useTranslations()
   const locale = useLocale()
+
+  // Function to get Font Awesome icon
+  const getFontAwesomeIcon = (iconName: string) => {
+    switch (iconName) {
+      case 'faInstagram':
+        return faInstagram
+      case 'faXTwitter':
+        return faXTwitter
+      case 'faLinkedin':
+        return faLinkedin
+      case 'faEnvelope':
+        return faEnvelope
+      default:
+        return faEnvelope
+    }
+  }
 
   // Map footer sections with translations
   const footerSections = footerSectionsConfig.map(section => ({
@@ -40,11 +59,22 @@ export default function Footer() {
                 <a
                   key={social.name}
                   href={social.href}
-                  className="w-8 h-8 bg-gray-800 rounded-full flex items-center justify-center hover:bg-primary-600 transition-colors duration-200"
+                  className={`w-10 h-10 rounded-full flex items-center justify-center transition-all duration-200 hover:scale-110 ${
+                    social.name === 'Instagram' 
+                      ? 'bg-gradient-to-r from-purple-500 to-pink-500 hover:from-purple-600 hover:to-pink-600' 
+                      : social.name === 'LinkedIn'
+                      ? 'bg-blue-600 hover:bg-blue-700'
+                      : social.name === 'X'
+                      ? 'bg-gray-900 hover:bg-black'
+                      : 'bg-gray-800 hover:bg-gradient-to-r hover:from-blue-600 hover:to-emerald-600'
+                  }`}
                   aria-label={social.description}
                   title={social.description}
                 >
-                  <span className="text-sm">{social.icon}</span>
+                  <FontAwesomeIcon 
+                    icon={getFontAwesomeIcon(social.icon)} 
+                    className="text-white text-lg"
+                  />
                 </a>
               ))}
             </div>
@@ -76,15 +106,15 @@ export default function Footer() {
         <div className="border-t border-gray-800 mt-12 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <div className="flex flex-col md:flex-row items-center space-y-2 md:space-y-0 md:space-x-6">
-              <p className="text-gray-400 text-sm">
-               Designed & Developed by <a href="https://www.melinaniavarani.com" target="_blank" className="text-white hover:text-primary-600 transition-colors duration-200">Melina Niavarani</a>| © {currentYear} ReEarthly. {t('footer.rights')}
+              <p className="text-gray-500 text-xs">
+               Designed & Developed by <a href="https://www.melinaniavarani.com" target="_blank" className="text-gray-300 hover:text-gray-100 transition-colors duration-200">Melina Niavarani</a> | © {currentYear} ReEarthly. {t('footer.rights')}
               </p>
               <div className="flex space-x-6">
                 {legalLinks.map((link, index) => (
                   <Link 
                     key={index}
                     href={`/${locale}${link.href}`} 
-                    className="text-gray-400 hover:text-white text-sm transition-colors duration-200"
+                    className="text-gray-500 hover:text-gray-300 text-xs transition-colors duration-200"
                     title={link.description}
                   >
                     {link.label}
@@ -93,7 +123,7 @@ export default function Footer() {
               </div>
             </div>
             <div className="mt-4 md:mt-0">
-              <p className="text-gray-400 text-sm">
+              <p className="text-gray-500 text-xs">
                 {t('footer.madeWith')}
               </p>
             </div>
