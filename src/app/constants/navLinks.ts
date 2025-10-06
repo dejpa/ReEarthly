@@ -93,34 +93,28 @@ export interface SocialLink {
 
 export const socialLinks: SocialLink[] = [
   {
-    name: 'Twitter',
-    href: 'https://twitter.com/reearthly',
-    icon: '𝕏',
-    description: 'Follow us on Twitter/X'
-  },
-  {
-    name: 'Facebook',
-    href: 'https://facebook.com/reearthly',
-    icon: 'f',
-    description: 'Like our Facebook page'
-  },
-  {
     name: 'Instagram',
     href: 'https://instagram.com/reearthly',
-    icon: '📷',
+    icon: 'faInstagram',
     description: 'Follow us on Instagram'
+  },
+  {
+    name: 'X',
+    href: 'https://x.com/reearthly',
+    icon: 'faXTwitter',
+    description: 'Follow us on X'
   },
   {
     name: 'LinkedIn',
     href: 'https://linkedin.com/company/reearthly',
-    icon: 'in',
+    icon: 'faLinkedin',
     description: 'Connect with us on LinkedIn'
   },
   {
-    name: 'YouTube',
-    href: 'https://youtube.com/@reearthly',
-    icon: '▶',
-    description: 'Subscribe to our YouTube channel'
+    name: 'Email',
+    href: 'mailto:contact@reearthly.com',
+    icon: 'faEnvelope',
+    description: 'Send us an email'
   }
 ];
 

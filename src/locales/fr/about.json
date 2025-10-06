@@ -1,0 +1,123 @@
+{
+  "story": {
+    "title": "Notre Histoire",
+    "subtitle": "De la vision à la réalité",
+    "content": "reEarthly est née d'une croyance simple mais puissante : que chaque individu a le pouvoir de créer un changement environnemental positif. Notre voyage a commencé lorsque nos fondateurs ont été témoins de première main des effets dévastateurs du changement climatique et de la dégradation environnementale. Nous avons réalisé que bien que les problèmes soient mondiaux, les solutions devaient être personnelles, pratiques et accessibles à tous.",
+    "milestones": [
+      {
+        "year": "2023",
+        "title": "Fondation",
+        "description": "reEarthly a été fondée avec pour mission de rendre la durabilité accessible à tous"
+      },
+      {
+        "year": "2024",
+        "title": "Premier Impact",
+        "description": "Atteint 100 000 utilisateurs et aidé à planter plus d'1 million d'arbres dans le monde"
+      },
+      {
+        "year": "2025",
+        "title": "Expansion Mondiale",
+        "description": "Étendu à 25 pays avec des solutions environnementales localisées"
+      }
+    ]
+  },
+  "mission": {
+    "title": "Notre Mission",
+    "subtitle": "Construire un avenir durable ensemble",
+    "description": "Notre mission est d'autonomiser les individus, les communautés et les organisations à prendre des mesures significatives vers la durabilité environnementale. Nous croyons que les petites actions, multipliées par des millions de personnes, peuvent créer un changement positif massif.",
+    "goals": [
+      {
+        "icon": "🌱",
+        "title": "Éduquer et Inspirer",
+        "description": "Fournir une éducation accessible sur les problèmes environnementaux et les pratiques durables"
+      },
+      {
+        "icon": "🤝",
+        "title": "Construire une Communauté",
+        "description": "Créer une communauté mondiale d'individus conscients de l'environnement"
+      },
+      {
+        "icon": "💡",
+        "title": "Innover des Solutions",
+        "description": "Développer et promouvoir des solutions innovantes pour les défis environnementaux"
+      },
+      {
+        "icon": "📈",
+        "title": "Mesurer l'Impact",
+        "description": "Suivre et mesurer l'impact environnemental de nos actions collectives"
+      }
+    ]
+  },
+  "values": {
+    "title": "Nos Valeurs",
+    "subtitle": "Les principes qui guident tout ce que nous faisons",
+    "values": [
+      {
+        "title": "Durabilité",
+        "description": "Nous pratiquons ce que nous prêchons, assurant que toutes nos opérations sont respectueuses de l'environnement"
+      },
+      {
+        "title": "Transparence",
+        "description": "Nous croyons en une communication ouverte sur notre impact, nos défis et nos succès"
+      },
+      {
+        "title": "Innovation",
+        "description": "Nous cherchons constamment de nouvelles et meilleures façons d'aborder les défis environnementaux"
+      },
+      {
+        "title": "Communauté",
+        "description": "Nous croyons au pouvoir de l'action collective et du changement communautaire"
+      },
+      {
+        "title": "Accessibilité",
+        "description": "Les solutions environnementales devraient être accessibles à tous, indépendamment du milieu"
+      },
+      {
+        "title": "Intégrité",
+        "description": "Nous maintenons les plus hauts standards éthiques dans toutes nos interactions et décisions"
+      }
+    ]
+  },
+  "team": {
+    "title": "Rencontrez Notre Équipe",
+    "subtitle": "Les individus passionnés derrière reEarthly",
+    "members": [
+      {
+        "name": "Sarah Johnson",
+        "role": "PDG et Co-fondatrice",
+        "bio": "Scientifique environnementale avec plus de 15 ans d'expérience en durabilité et action climatique.",
+        "image": "👩‍💼"
+      },
+      {
+        "name": "Marcus Chen",
+        "role": "CTO et Co-fondateur",
+        "bio": "Innovateur technologique passionné par l'utilisation de la technologie pour résoudre les défis environnementaux.",
+        "image": "👨‍💻"
+      },
+      {
+        "name": "Elena Rodriguez",
+        "role": "Responsable de la Communauté",
+        "bio": "Organisatrice communautaire experte dans la construction de communautés environnementales engagées.",
+        "image": "👩‍🌾"
+      },
+      {
+        "name": "David Kim",
+        "role": "Scientifique Principal",
+        "bio": "Chercheur climatique axé sur le développement de solutions environnementales pratiques.",
+        "image": "👨‍🔬"
+      },
+      {
+        "name": "Aisha Patel",
+        "role": "Responsable de l'Éducation",
+        "bio": "Éducatrice environnementale dédiée à rendre la durabilité accessible à tous.",
+        "image": "👩‍🏫"
+      },
+      {
+        "name": "James Wilson",
+        "role": "Directeur des Opérations",
+        "bio": "Expert en opérations assurant le bon fonctionnement de nos initiatives d'impact environnemental.",
+        "image": "👨‍💼"
+      }
+    ]
+  }
+}

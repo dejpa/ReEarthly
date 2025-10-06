@@ -1,0 +1,123 @@
+{
+  "story": {
+    "title": "Our Story",
+    "subtitle": "From vision to reality",
+    "content": "reEarthly was born from a simple yet powerful belief: that every individual has the power to create positive environmental change. Our journey began when our founders witnessed firsthand the devastating effects of climate change and environmental degradation. We realized that while the problems were global, the solutions needed to be personal, practical, and accessible to everyone.",
+    "milestones": [
+      {
+        "year": "2023",
+        "title": "Foundation",
+        "description": "reEarthly was founded with a mission to make sustainability accessible to everyone"
+      },
+      {
+        "year": "2024",
+        "title": "First Impact",
+        "description": "Reached 100,000 users and helped plant over 1 million trees worldwide"
+      },
+      {
+        "year": "2025",
+        "title": "Global Expansion",
+        "description": "Expanded to 25 countries with localized environmental solutions"
+      }
+    ]
+  },
+  "mission": {
+    "title": "Our Mission",
+    "subtitle": "Building a sustainable future together",
+    "description": "Our mission is to empower individuals, communities, and organizations to take meaningful action towards environmental sustainability. We believe that small actions, when multiplied by millions of people, can create massive positive change.",
+    "goals": [
+      {
+        "icon": "🌱",
+        "title": "Educate & Inspire",
+        "description": "Provide accessible education about environmental issues and sustainable practices"
+      },
+      {
+        "icon": "🤝",
+        "title": "Build Community",
+        "description": "Create a global community of environmentally conscious individuals"
+      },
+      {
+        "icon": "💡",
+        "title": "Innovate Solutions",
+        "description": "Develop and promote innovative solutions for environmental challenges"
+      },
+      {
+        "icon": "📈",
+        "title": "Measure Impact",
+        "description": "Track and measure the environmental impact of our collective actions"
+      }
+    ]
+  },
+  "values": {
+    "title": "Our Values",
+    "subtitle": "The principles that guide everything we do",
+    "values": [
+      {
+        "title": "Sustainability",
+        "description": "We practice what we preach, ensuring all our operations are environmentally responsible"
+      },
+      {
+        "title": "Transparency",
+        "description": "We believe in open communication about our impact, challenges, and successes"
+      },
+      {
+        "title": "Innovation",
+        "description": "We constantly seek new and better ways to address environmental challenges"
+      },
+      {
+        "title": "Community",
+        "description": "We believe in the power of collective action and community-driven change"
+      },
+      {
+        "title": "Accessibility",
+        "description": "Environmental solutions should be accessible to everyone, regardless of background"
+      },
+      {
+        "title": "Integrity",
+        "description": "We maintain the highest ethical standards in all our interactions and decisions"
+      }
+    ]
+  },
+  "team": {
+    "title": "Meet Our Team",
+    "subtitle": "The passionate individuals behind reEarthly",
+    "members": [
+      {
+        "name": "Sarah Johnson",
+        "role": "CEO & Co-Founder",
+        "bio": "Environmental scientist with 15+ years of experience in sustainability and climate action.",
+        "image": "👩‍💼"
+      },
+      {
+        "name": "Marcus Chen",
+        "role": "CTO & Co-Founder",
+        "bio": "Tech innovator passionate about using technology to solve environmental challenges.",
+        "image": "👨‍💻"
+      },
+      {
+        "name": "Elena Rodriguez",
+        "role": "Head of Community",
+        "bio": "Community organizer with expertise in building engaged environmental communities.",
+        "image": "👩‍🌾"
+      },
+      {
+        "name": "David Kim",
+        "role": "Lead Scientist",
+        "bio": "Climate researcher focused on developing practical environmental solutions.",
+        "image": "👨‍🔬"
+      },
+      {
+        "name": "Aisha Patel",
+        "role": "Head of Education",
+        "bio": "Environmental educator dedicated to making sustainability accessible to all.",
+        "image": "👩‍🏫"
+      },
+      {
+        "name": "James Wilson",
+        "role": "Operations Director",
+        "bio": "Operations expert ensuring our environmental impact initiatives run smoothly.",
+        "image": "👨‍💼"
+      }
+    ]
+  }
+}
