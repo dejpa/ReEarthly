@@ -23,17 +23,17 @@ export default function Hero() {
           muted
           loop
           playsInline
-          className="w-full h-full object-cover opacity-80"
+          className="w-full h-full object-cover opacity-90"
         >
-          <source src="/intro.MP4" type="video/mp4" />
+          <source src="/intro.mp4" type="video/mp4" />
           Your browser does not support the video tag.
         </video>
-        {/* Modern gradient overlay */}
-        <div className="absolute inset-0 bg-gradient-to-br from-slate-900/20 via-transparent to-emerald-900/20"></div>
-        {/* Animated background elements */}
+        {/* Minimal gradient overlay for text readability */}
+        <div className="absolute inset-0 bg-gradient-to-br from-black/30 via-transparent to-black/30"></div>
+        {/* Subtle animated background elements */}
         <div className="absolute inset-0">
-          <div className="absolute top-20 left-10 w-72 h-72 bg-gradient-to-r from-blue-400/20 to-emerald-400/20 rounded-full blur-3xl animate-pulse"></div>
-          <div className="absolute bottom-20 right-10 w-96 h-96 bg-gradient-to-r from-emerald-400/20 to-blue-400/20 rounded-full blur-3xl animate-pulse delay-1000"></div>
+          <div className="absolute top-20 left-10 w-72 h-72 bg-gradient-to-r from-blue-400/10 to-emerald-400/10 rounded-full blur-3xl animate-pulse"></div>
+          <div className="absolute bottom-20 right-10 w-96 h-96 bg-gradient-to-r from-emerald-400/10 to-blue-400/10 rounded-full blur-3xl animate-pulse delay-1000"></div>
         </div>
       </div>
 
@@ -52,7 +52,7 @@ export default function Hero() {
               </span>
             </h1>
             
-            <p className="text-xl lg:text-2xl text-slate-600 leading-relaxed max-w-2xl mx-auto lg:mx-0 font-light">
+            <p className="text-xl lg:text-2xl text-white leading-relaxed max-w-2xl mx-auto lg:mx-0 font-medium drop-shadow-lg">
               {t('hero.subtitle')}
             </p>
             
