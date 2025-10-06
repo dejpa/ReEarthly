@@ -98,17 +98,17 @@ export default function Stats() {
         </div>
 
         {/* Modern Stats Grid */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 lg:gap-6 w-full">
           {statsData.map((stat, index) => (
             <div
               key={index}
               className="group"
             >
-              <div className="bg-white/80 backdrop-blur-sm rounded-3xl p-6 shadow-lg hover:shadow-2xl transition-all duration-500 transform hover:-translate-y-3 hover:scale-105 border border-slate-200/50 hover:border-slate-300/50">
+              <div className="bg-white/80 backdrop-blur-sm rounded-2xl p-4 lg:p-5 shadow-lg hover:shadow-2xl transition-all duration-500 transform hover:-translate-y-3 hover:scale-105 border border-slate-200/50 hover:border-slate-300/50 min-w-0 h-full flex flex-col">
                 {/* Modern Icon */}
-                <div className="flex justify-center mb-6">
-                  <div className="w-16 h-16 bg-gradient-to-br from-blue-500/20 to-emerald-500/20 rounded-2xl flex items-center justify-center group-hover:scale-110 transition-transform duration-500">
-                    <span className="text-3xl group-hover:scale-110 transition-transform duration-300">
+                <div className="flex justify-center mb-4">
+                  <div className="w-12 h-12 bg-gradient-to-br from-blue-500/20 to-emerald-500/20 rounded-xl flex items-center justify-center group-hover:scale-110 transition-transform duration-500">
+                    <span className="text-2xl group-hover:scale-110 transition-transform duration-300">
                       {index === 0 && '🌳'}
                       {index === 1 && '🏘️'}
                       {index === 2 && '🌍'}
@@ -118,23 +118,23 @@ export default function Stats() {
                 </div>
 
                 {/* Modern Number */}
-                <div className="text-center mb-4">
-                  <div className="text-3xl sm:text-4xl lg:text-5xl font-black bg-gradient-to-r from-blue-600 to-emerald-600 bg-clip-text text-transparent group-hover:scale-110 transition-transform duration-500">
+                <div className="text-center mb-3 flex-grow">
+                  <div className="text-xl sm:text-2xl lg:text-3xl font-black bg-gradient-to-r from-blue-600 to-emerald-600 bg-clip-text text-transparent group-hover:scale-110 transition-transform duration-500">
                     {index === 0 && formatCompactNumber(counts.trees, locale)}
                     {index === 1 && formatCompactNumber(counts.communities, locale)}
                     {index === 2 && formatCompactNumber(counts.countries, locale)}
                     {index === 3 && formatCompactNumber(counts.impact, locale)}
-                    <span className="text-xl sm:text-2xl">{stat.suffix}</span>
+                    <span className="text-lg">{stat.suffix}</span>
                   </div>
                 </div>
 
                 {/* Modern Label */}
-                <h3 className="text-lg font-bold text-slate-900 mb-3 text-center group-hover:text-blue-700 transition-colors duration-300">
+                <h3 className="text-sm font-bold text-slate-900 mb-2 text-center group-hover:text-blue-700 transition-colors duration-300">
                   {stat.label}
                 </h3>
 
                 {/* Modern Description */}
-                <p className="text-sm text-slate-600 text-center leading-relaxed group-hover:text-slate-700 transition-colors duration-300">
+                <p className="text-xs text-slate-600 text-center leading-relaxed group-hover:text-slate-700 transition-colors duration-300">
                   {stat.description}
                 </p>
               </div>

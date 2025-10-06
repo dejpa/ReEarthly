@@ -1,7 +1,7 @@
 'use client'
 
 import { useTranslations, useLocale } from 'next-intl'
-import { formatNumber } from '@/src/i18n'
+import { formatCompactNumber } from '@/src/i18n'
 
 export default function Hero() {
   const t = useTranslations()
@@ -23,13 +23,13 @@ export default function Hero() {
           muted
           loop
           playsInline
-          className="w-full h-full object-cover opacity-20"
+          className="w-full h-full object-cover opacity-80"
         >
           <source src="/intro.MP4" type="video/mp4" />
           Your browser does not support the video tag.
         </video>
         {/* Modern gradient overlay */}
-        <div className="absolute inset-0 bg-gradient-to-br from-slate-900/10 via-transparent to-emerald-900/10"></div>
+        <div className="absolute inset-0 bg-gradient-to-br from-slate-900/20 via-transparent to-emerald-900/20"></div>
         {/* Animated background elements */}
         <div className="absolute inset-0">
           <div className="absolute top-20 left-10 w-72 h-72 bg-gradient-to-r from-blue-400/20 to-emerald-400/20 rounded-full blur-3xl animate-pulse"></div>
@@ -70,14 +70,14 @@ export default function Hero() {
             </div>
 
             {/* Modern Stats Grid */}
-            <div className="grid grid-cols-2 lg:grid-cols-4 gap-6 pt-8 ">
+            <div className="grid grid-cols-2 lg:grid-cols-4 gap-3 lg:gap-6 pt-8 w-full">
               {statsData.map((stat, index) => (
-                <div key={index} className="group text-center p-6 rounded-2xl bg-white/60 backdrop-blur-sm border border-slate-200/50 hover:bg-white/80 hover:border-slate-300/50 transition-all duration-300 hover:scale-105 hover:-translate-y-1">
-                  <div className="text-3xl lg:text-4xl font-black bg-gradient-to-r from-blue-600 to-emerald-600 bg-clip-text text-transparent group-hover:scale-110 transition-transform duration-300">
-                    {formatNumber(stat.number, locale)}
+                <div key={index} className="group text-center p-3 lg:p-4 rounded-xl bg-white/60 backdrop-blur-sm border border-slate-200/50 hover:bg-white/80 hover:border-slate-300/50 transition-all duration-300 hover:scale-105 hover:-translate-y-1 min-w-0 flex flex-col justify-center">
+                  <div className="text-xl sm:text-2xl lg:text-3xl font-black bg-gradient-to-r from-blue-600 to-emerald-600 bg-clip-text text-transparent group-hover:scale-110 transition-transform duration-300">
+                    {formatCompactNumber(stat.number, locale)}
                     {index === 3 ? '%' : '+'}
                   </div>
-                  <div className="text-sm font-medium text-slate-600 mt-2 group-hover:text-slate-800 transition-colors duration-300">
+                  <div className="text-xs sm:text-sm font-medium text-slate-600 mt-1 group-hover:text-slate-800 transition-colors duration-300 leading-tight">
                     {stat.label}
                   </div>
                 </div>
