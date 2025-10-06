@@ -8,53 +8,76 @@ export default function Hero() {
   const locale = useLocale()
 
   const statsData = [
-    { number: 1250000, label: t('hero.stats.trees') },
+    { number: 1250, label: t('hero.stats.trees') },
     { number: 2500, label: t('hero.stats.communities') },
     { number: 75, label: t('hero.stats.countries') },
     { number: 99, label: t('hero.stats.carbon') }
   ]
 
   return (
-    <section className="relative bg-gradient-to-br from-gradient-blue/10 via-white to-gradient-green/10 overflow-hidden">
-      {/* Background Pattern */}
-      <div className="absolute inset-0 opacity-5">
-        <div className="absolute inset-0" style={{
-          backgroundImage: `url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%2310B0E4' fill-opacity='0.4'%3E%3Ccircle cx='30' cy='30' r='4'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E")`,
-        }} />
+    <section className="relative min-h-screen flex items-center bg-gradient-to-br from-slate-50 via-white to-emerald-50 overflow-hidden">
+      {/* Video Background */}
+      <div className="absolute inset-0 w-full h-full">
+        <video
+          autoPlay
+          muted
+          loop
+          playsInline
+          className="w-full h-full object-cover opacity-20"
+        >
+          <source src="/intro.MP4" type="video/mp4" />
+          Your browser does not support the video tag.
+        </video>
+        {/* Modern gradient overlay */}
+        <div className="absolute inset-0 bg-gradient-to-br from-slate-900/10 via-transparent to-emerald-900/10"></div>
+        {/* Animated background elements */}
+        <div className="absolute inset-0">
+          <div className="absolute top-20 left-10 w-72 h-72 bg-gradient-to-r from-blue-400/20 to-emerald-400/20 rounded-full blur-3xl animate-pulse"></div>
+          <div className="absolute bottom-20 right-10 w-96 h-96 bg-gradient-to-r from-emerald-400/20 to-blue-400/20 rounded-full blur-3xl animate-pulse delay-1000"></div>
+        </div>
       </div>
 
-      <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 lg:py-32">
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+      <div className="relative max-w-7xl mx-auto px-6 sm:px-8 lg:px-12 py-24 lg:py-32">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
           {/* Content */}
-          <div className="text-center lg:text-left">
-            <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-gray-900 leading-tight">
-              {t('hero.title')}
+          <div className="text-center lg:text-left space-y-8">
+            {/* Badge */}
+            <div className="inline-flex items-center px-4 py-2 rounded-full bg-gradient-to-r from-blue-500/10 to-emerald-500/10 border border-blue-200/20 backdrop-blur-sm">
+              <span className="text-sm font-medium text-blue-700">🌱 Sustainable Future</span>
+            </div>
+            
+            <h1 className="text-5xl sm:text-6xl lg:text-7xl font-black leading-[0.9] tracking-tight">
+              <span className="bg-gradient-to-r from-slate-900 via-blue-800 to-emerald-800 bg-clip-text text-transparent">
+                {t('hero.title')}
+              </span>
             </h1>
-            <p className="mt-6 text-xl text-gray-600 leading-relaxed max-w-2xl mx-auto lg:mx-0">
+            
+            <p className="text-xl lg:text-2xl text-slate-600 leading-relaxed max-w-2xl mx-auto lg:mx-0 font-light">
               {t('hero.subtitle')}
             </p>
             
-            <div className="mt-10 flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
-              <button className="inline-flex items-center px-8 py-4 border border-transparent text-lg font-medium rounded-lg text-white bg-primary-600 hover:bg-primary-700 transition-all duration-200 transform hover:scale-105 shadow-lg hover:shadow-xl group">
-                {t('hero.cta')}
-                <svg className="ml-2 -mr-1 w-5 h-5 group-hover:translate-x-1 transition-transform duration-200" fill="currentColor" viewBox="0 0 20 20">
+            <div className="flex flex-col sm:flex-row gap-6 justify-center lg:justify-start">
+              <button className="group relative inline-flex items-center justify-center px-8 py-4 text-lg font-semibold text-white bg-gradient-to-r from-blue-600 to-emerald-600 rounded-2xl shadow-2xl hover:shadow-blue-500/25 transition-all duration-300 transform hover:scale-105 hover:-translate-y-1">
+                <span className="relative z-10">{t('hero.cta')}</span>
+                <div className="absolute inset-0 bg-gradient-to-r from-blue-700 to-emerald-700 rounded-2xl opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+                <svg className="ml-3 w-5 h-5 group-hover:translate-x-1 transition-transform duration-300" fill="currentColor" viewBox="0 0 20 20">
                   <path fillRule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clipRule="evenodd" />
                 </svg>
               </button>
-              <button className="inline-flex items-center px-8 py-4 border-2 border-primary-600 text-lg font-medium rounded-lg text-primary-600 hover:bg-primary-600 hover:text-white transition-all duration-200 hover:shadow-lg">
+              <button className="inline-flex items-center justify-center px-8 py-4 text-lg font-semibold text-slate-700 bg-white/80 backdrop-blur-sm border-2 border-slate-200 rounded-2xl hover:bg-white hover:border-slate-300 transition-all duration-300 transform hover:scale-105 hover:-translate-y-1 shadow-lg hover:shadow-xl">
                 {t('hero.secondaryCta')}
               </button>
             </div>
 
-            {/* Stats */}
-            <div className="mt-16 grid grid-cols-2 lg:grid-cols-4 gap-8">
+            {/* Modern Stats Grid */}
+            <div className="grid grid-cols-2 lg:grid-cols-4 gap-6 pt-8 ">
               {statsData.map((stat, index) => (
-                <div key={index} className="text-center group">
-                  <div className="text-3xl lg:text-4xl font-bold text-primary-600 group-hover:scale-110 transition-transform duration-200">
+                <div key={index} className="group text-center p-6 rounded-2xl bg-white/60 backdrop-blur-sm border border-slate-200/50 hover:bg-white/80 hover:border-slate-300/50 transition-all duration-300 hover:scale-105 hover:-translate-y-1">
+                  <div className="text-3xl lg:text-4xl font-black bg-gradient-to-r from-blue-600 to-emerald-600 bg-clip-text text-transparent group-hover:scale-110 transition-transform duration-300">
                     {formatNumber(stat.number, locale)}
                     {index === 3 ? '%' : '+'}
                   </div>
-                  <div className="text-sm text-gray-600 mt-1 group-hover:text-primary-600 transition-colors duration-200">
+                  <div className="text-sm font-medium text-slate-600 mt-2 group-hover:text-slate-800 transition-colors duration-300">
                     {stat.label}
                   </div>
                 </div>
@@ -63,46 +86,41 @@ export default function Hero() {
           </div>
 
           {/* Visual */}
-          <div className="relative">
+          {/* <div className="relative">
             <div className="relative z-10">
-              <div className="bg-white rounded-2xl shadow-2xl p-8 transform rotate-3 hover:rotate-0 transition-all duration-500 hover:shadow-3xl border border-gray-100">
-                <div className="space-y-6">
-                  <div className="flex items-center space-x-4 group">
-                    <div className="w-12 h-12 bg-gradient-to-br from-gradient-blue/20 to-gradient-blue/30 rounded-full flex items-center justify-center group-hover:scale-110 transition-transform duration-200">
-                      <span className="text-2xl">🌱</span>
+              <div className="bg-stone-100 opacity-80 rounded-xl shadow-xl p-4 transform rotate-2 hover:rotate-0 transition-all duration-500 hover:shadow-2xl border border-gray-100 max-w-xs">
+                <div className="space-y-3">
+                  <div className="flex items-center space-x-3 group">
+                    <div className="w-8 h-8 bg-gradient-to-br from-gradient-blue/20 to-gradient-blue/30 rounded-full flex items-center justify-center group-hover:scale-110 transition-transform duration-200">
+                      <span className="text-lg">🌱</span>
                     </div>
                     <div>
-                      <h3 className="font-semibold text-gray-900 group-hover:text-primary-600 transition-colors duration-200">Sustainable Living</h3>
-                      <p className="text-sm text-gray-600">Eco-friendly practices for daily life</p>
+                      <h3 className="text-sm font-semibold text-gray-900 group-hover:text-primary-600 transition-colors duration-200">Sustainable Living</h3>
+                      <p className="text-xs text-gray-600">Eco-friendly practices</p>
                     </div>
                   </div>
-                  <div className="flex items-center space-x-4 group">
-                    <div className="w-12 h-12 bg-gradient-to-br from-gradient-green/20 to-gradient-green/30 rounded-full flex items-center justify-center group-hover:scale-110 transition-transform duration-200">
-                      <span className="text-2xl">♻️</span>
+                  <div className="flex items-center space-x-3 group">
+                    <div className="w-8 h-8 bg-gradient-to-br from-gradient-green/20 to-gradient-green/30 rounded-full flex items-center justify-center group-hover:scale-110 transition-transform duration-200">
+                      <span className="text-lg">♻️</span>
                     </div>
                     <div>
-                      <h3 className="font-semibold text-gray-900 group-hover:text-primary-600 transition-colors duration-200">Waste Reduction</h3>
-                      <p className="text-sm text-gray-600">Smart recycling and upcycling solutions</p>
+                      <h3 className="text-sm font-semibold text-gray-900 group-hover:text-primary-600 transition-colors duration-200">Waste Reduction</h3>
+                      <p className="text-xs text-gray-600">Smart recycling solutions</p>
                     </div>
                   </div>
-                  <div className="flex items-center space-x-4 group">
-                    <div className="w-12 h-12 bg-gradient-to-br from-gradient-blue/20 to-gradient-green/20 rounded-full flex items-center justify-center group-hover:scale-110 transition-transform duration-200">
-                      <span className="text-2xl">⚡</span>
+                  <div className="flex items-center space-x-3 group">
+                    <div className="w-8 h-8 bg-gradient-to-br from-gradient-blue/20 to-gradient-green/20 rounded-full flex items-center justify-center group-hover:scale-110 transition-transform duration-200">
+                      <span className="text-lg">⚡</span>
                     </div>
                     <div>
-                      <h3 className="font-semibold text-gray-900 group-hover:text-primary-600 transition-colors duration-200">Renewable Energy</h3>
-                      <p className="text-sm text-gray-600">Clean energy for a brighter future</p>
+                      <h3 className="text-sm font-semibold text-gray-900 group-hover:text-primary-600 transition-colors duration-200">Renewable Energy</h3>
+                      <p className="text-xs text-gray-600">Clean energy future</p>
                     </div>
                   </div>
                 </div>
               </div>
             </div>
-            
-            {/* Floating Elements */}
-            <div className="absolute -top-4 -right-4 w-20 h-20 bg-gradient-to-br from-gradient-blue/30 to-gradient-blue/50 rounded-full opacity-60 animate-pulse"></div>
-            <div className="absolute -bottom-4 -left-4 w-16 h-16 bg-gradient-to-br from-gradient-green/30 to-gradient-green/50 rounded-full opacity-60 animate-bounce"></div>
-            <div className="absolute top-1/2 -right-8 w-12 h-12 bg-gradient-to-br from-gradient-blue/40 to-gradient-green/40 rounded-full opacity-40 animate-ping"></div>
-          </div>
+          </div> */}
         </div>
       </div>
 

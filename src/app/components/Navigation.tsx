@@ -47,21 +47,26 @@ export default function Navigation() {
   const currentPathWithoutLocale = getCurrentPathWithoutLocale()
 
   return (
-    <nav className="bg-white shadow-lg sticky top-0 z-50">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex justify-between items-center h-16">
-          {/* Logo */}
+    <nav className="bg-white/80 backdrop-blur-md border-b border-slate-200/50 sticky top-0 z-50">
+      <div className="max-w-7xl mx-auto px-6 sm:px-8 lg:px-12">
+        <div className="flex justify-between items-center h-20">
+          {/* Modern Logo */}
           <div className="flex items-center">
-            <Link href={`/${locale}`} className="flex items-center space-x-2 group">
-            <div className="w-8 h-8 bg-gradient-to-br from-gradient-blue to-gradient-green rounded-lg flex items-center justify-center">
-            <span className="text-white font-bold text-lg">R</span>
+            <Link href={`/${locale}`} className="flex items-center space-x-3 group">
+              <div className="relative">
+                <div className="w-10 h-10 bg-gradient-to-br from-blue-600 to-emerald-600 rounded-2xl flex items-center justify-center shadow-lg group-hover:shadow-xl transition-all duration-300 group-hover:scale-105">
+                  <span className="text-white font-black text-lg">R</span>
+                </div>
+                <div className="absolute -top-1 -right-1 w-4 h-4 bg-gradient-to-r from-emerald-400 to-blue-400 rounded-full opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
               </div>
-              <span className="text-xl font-bold text-gray-800 group-hover:text-primary-600 transition-colors duration-200">ReEarthly</span>
+              <span className="text-2xl font-black text-slate-900 group-hover:text-blue-600 transition-colors duration-300">
+                ReEarthly
+              </span>
             </Link>
           </div>
 
-          {/* Desktop Navigation */}
-          <div className="hidden md:flex items-center space-x-8">
+          {/* Modern Desktop Navigation */}
+          <div className="hidden md:flex items-center space-x-2">
             {mainNavLinks.map((item) => {
               const isActive = pathname === `/${locale}${item.href}` || 
                              (item.href === '/' && pathname === `/${locale}`)
@@ -69,10 +74,10 @@ export default function Navigation() {
                 <Link
                   key={item.href}
                   href={`/${locale}${item.href}`}
-                  className={`px-3 py-2 rounded-md text-sm font-medium transition-all duration-200 ${
+                  className={`px-4 py-2 rounded-xl text-sm font-semibold transition-all duration-300 ${
                     isActive 
-                      ? 'text-primary-600 bg-primary-50 border-b-2 border-primary-600' 
-                      : 'text-gray-700 hover:text-primary-600 hover:bg-gray-50'
+                      ? 'text-blue-600 bg-blue-50/80 backdrop-blur-sm shadow-sm' 
+                      : 'text-slate-600 hover:text-blue-600 hover:bg-slate-50/80 hover:backdrop-blur-sm'
                   }`}
                   title={item.description}
                 >
@@ -82,27 +87,27 @@ export default function Navigation() {
             })}
           </div>
 
-          {/* Language Toggle & CTA */}
-          <div className="flex items-center space-x-4">
+          {/* Modern Language Toggle & CTA */}
+          <div className="flex items-center space-x-3">
             <button
               onClick={handleLanguageToggle}
-              className="flex items-center space-x-1 px-3 py-2 text-sm font-medium text-gray-700 hover:text-primary-600 hover:bg-gray-50 rounded-md transition-all duration-200 group"
+              className="flex items-center space-x-2 px-4 py-2 text-sm font-semibold text-slate-600 hover:text-blue-600 hover:bg-slate-50/80 backdrop-blur-sm rounded-xl transition-all duration-300 group"
               title={`Switch to ${locale === 'en' ? 'French' : 'English'}`}
             >
-              <span className="text-lg group-hover:scale-110 transition-transform duration-200">
+              <span className="text-lg group-hover:scale-110 transition-transform duration-300">
                 {locale === 'en' ? '🇺🇸' : '🇫🇷'}
               </span>
-              <span className="font-semibold">{locale.toUpperCase()}</span>
+              <span className="font-bold">{locale.toUpperCase()}</span>
             </button>
             
-            <button className="hidden md:inline-flex items-center px-4 py-2 border border-transparent text-sm font-medium rounded-md text-white bg-gradient-to-r from-gradient-blue to-gradient-green hover:from-primary-600 hover:to-secondary-600 hover:shadow-lg transition-all duration-200 transform hover:scale-105">
+            <button className="hidden md:inline-flex items-center px-6 py-3 text-sm font-semibold text-white bg-gradient-to-r from-blue-600 to-emerald-600 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105 hover:-translate-y-0.5">
               {t('navigation.getStarted')}
             </button>
 
-            {/* Mobile menu button */}
+            {/* Modern Mobile menu button */}
             <button
               onClick={() => setIsMenuOpen(!isMenuOpen)}
-              className="md:hidden inline-flex items-center justify-center p-2 rounded-md text-gray-700 hover:text-primary-600 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-primary-500"
+              className="md:hidden inline-flex items-center justify-center p-3 rounded-xl text-slate-600 hover:text-blue-600 hover:bg-slate-50/80 backdrop-blur-sm transition-all duration-300"
             >
               <svg className="h-6 w-6" stroke="currentColor" fill="none" viewBox="0 0 24 24">
                 {isMenuOpen ? (
@@ -115,10 +120,10 @@ export default function Navigation() {
           </div>
         </div>
 
-        {/* Mobile Navigation */}
+        {/* Modern Mobile Navigation */}
         {isMenuOpen && (
           <div className="md:hidden">
-            <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3 bg-white border-t shadow-lg">
+            <div className="px-4 pt-4 pb-6 space-y-2 bg-white/95 backdrop-blur-md border-t border-slate-200/50 shadow-xl rounded-b-2xl">
               {mainNavLinks.map((item) => {
                 const isActive = pathname === `/${locale}${item.href}` || 
                                (item.href === '/' && pathname === `/${locale}`)
@@ -126,10 +131,10 @@ export default function Navigation() {
                   <Link
                     key={item.href}
                     href={`/${locale}${item.href}`}
-                    className={`block px-3 py-2 rounded-md text-base font-medium transition-colors duration-200 ${
+                    className={`block px-4 py-3 rounded-xl text-base font-semibold transition-all duration-300 ${
                       isActive 
-                        ? 'text-primary-600 bg-primary-50 border-l-4 border-primary-600' 
-                        : 'text-gray-700 hover:text-primary-600 hover:bg-gray-50'
+                        ? 'text-blue-600 bg-blue-50/80 backdrop-blur-sm shadow-sm' 
+                        : 'text-slate-600 hover:text-blue-600 hover:bg-slate-50/80 hover:backdrop-blur-sm'
                     }`}
                     onClick={() => setIsMenuOpen(false)}
                     title={item.description}
@@ -138,8 +143,8 @@ export default function Navigation() {
                   </Link>
                 )
               })}
-              <div className="pt-2 border-t border-gray-200">
-                <button className="w-full text-left px-3 py-2 rounded-md text-base font-medium text-white bg-primary-600 hover:bg-primary-700 transition-colors duration-200">
+              <div className="pt-4 border-t border-slate-200/50">
+                <button className="w-full text-center px-4 py-3 rounded-xl text-base font-semibold text-white bg-gradient-to-r from-blue-600 to-emerald-600 hover:shadow-lg transition-all duration-300 transform hover:scale-105">
                   {t('navigation.getStarted')}
                 </button>
               </div>

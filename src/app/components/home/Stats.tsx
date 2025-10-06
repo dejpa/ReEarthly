@@ -2,7 +2,7 @@
 
 import { useState, useEffect } from 'react'
 import { useTranslations, useLocale } from 'next-intl'
-import { formatNumber } from '@/src/i18n'
+import { formatCompactNumber } from '@/src/i18n'
 
 export default function Stats() {
   const t = useTranslations()
@@ -81,48 +81,34 @@ export default function Stats() {
         }} />
       </div>
 
-      <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        {/* Header */}
-        <div className="text-center mb-16">
-          <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-gray-900 mb-6">
-            {t('stats.title')}
+      <div className="relative max-w-7xl mx-auto px-6 sm:px-8 lg:px-12">
+        {/* Modern Header */}
+        <div className="text-center mb-20">
+          <div className="inline-flex items-center px-4 py-2 rounded-full bg-gradient-to-r from-blue-500/10 to-emerald-500/10 border border-blue-200/20 backdrop-blur-sm mb-6">
+            <span className="text-sm font-medium text-blue-700">📊 Our Impact</span>
+          </div>
+          <h2 className="text-4xl sm:text-5xl lg:text-6xl font-black leading-tight mb-6">
+            <span className="bg-gradient-to-r from-slate-900 via-blue-800 to-emerald-800 bg-clip-text text-transparent">
+              {t('stats.title')}
+            </span>
           </h2>
-          <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+          <p className="text-xl lg:text-2xl text-slate-600 max-w-4xl mx-auto font-light leading-relaxed">
             {t('stats.subtitle')}
           </p>
         </div>
 
-        {/* Stats Grid */}
+        {/* Modern Stats Grid */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {statsData.map((stat, index) => (
             <div
               key={index}
-              className="text-center group"
+              className="group"
             >
-              <div className="bg-white rounded-2xl p-8 shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 border border-gray-100">
-                {/* Number */}
-                <div className="text-4xl sm:text-5xl font-bold text-primary-600 mb-2 group-hover:scale-110 transition-transform duration-300">
-                  {index === 0 && formatNumber(counts.trees, locale)}
-                  {index === 1 && counts.communities.toLocaleString()}
-                  {index === 2 && counts.countries}
-                  {index === 3 && counts.impact}
-                  {stat.suffix}
-                </div>
-
-                {/* Label */}
-                <h3 className="text-lg font-semibold text-gray-900 mb-2">
-                  {stat.label}
-                </h3>
-
-                {/* Description */}
-                <p className="text-sm text-gray-600">
-                  {stat.description}
-                </p>
-
-                {/* Icon */}
-                <div className="mt-4 flex justify-center">
-                  <div className="w-12 h-12 bg-gradient-to-r from-gradient-blue to-gradient-green rounded-full flex items-center justify-center">
-                    <span className="text-white text-xl">
+              <div className="bg-white/80 backdrop-blur-sm rounded-3xl p-6 shadow-lg hover:shadow-2xl transition-all duration-500 transform hover:-translate-y-3 hover:scale-105 border border-slate-200/50 hover:border-slate-300/50">
+                {/* Modern Icon */}
+                <div className="flex justify-center mb-6">
+                  <div className="w-16 h-16 bg-gradient-to-br from-blue-500/20 to-emerald-500/20 rounded-2xl flex items-center justify-center group-hover:scale-110 transition-transform duration-500">
+                    <span className="text-3xl group-hover:scale-110 transition-transform duration-300">
                       {index === 0 && '🌳'}
                       {index === 1 && '🏘️'}
                       {index === 2 && '🌍'}
@@ -130,25 +116,49 @@ export default function Stats() {
                     </span>
                   </div>
                 </div>
+
+                {/* Modern Number */}
+                <div className="text-center mb-4">
+                  <div className="text-3xl sm:text-4xl lg:text-5xl font-black bg-gradient-to-r from-blue-600 to-emerald-600 bg-clip-text text-transparent group-hover:scale-110 transition-transform duration-500">
+                    {index === 0 && formatCompactNumber(counts.trees, locale)}
+                    {index === 1 && formatCompactNumber(counts.communities, locale)}
+                    {index === 2 && formatCompactNumber(counts.countries, locale)}
+                    {index === 3 && formatCompactNumber(counts.impact, locale)}
+                    <span className="text-xl sm:text-2xl">{stat.suffix}</span>
+                  </div>
+                </div>
+
+                {/* Modern Label */}
+                <h3 className="text-lg font-bold text-slate-900 mb-3 text-center group-hover:text-blue-700 transition-colors duration-300">
+                  {stat.label}
+                </h3>
+
+                {/* Modern Description */}
+                <p className="text-sm text-slate-600 text-center leading-relaxed group-hover:text-slate-700 transition-colors duration-300">
+                  {stat.description}
+                </p>
               </div>
             </div>
           ))}
         </div>
 
-        {/* Additional Info */}
-        <div className="mt-16 text-center">
-          <div className="bg-white rounded-2xl p-8 shadow-lg max-w-4xl mx-auto">
-            <h3 className="text-2xl font-bold text-gray-900 mb-4">
-              {t('stats.joinMission')}
+        {/* Modern Additional Info */}
+        <div className="mt-20 text-center">
+          <div className="bg-white/80 backdrop-blur-sm rounded-3xl p-10 shadow-xl max-w-5xl mx-auto border border-slate-200/50">
+            <h3 className="text-3xl lg:text-4xl font-black text-slate-900 mb-6">
+              <span className="bg-gradient-to-r from-slate-900 via-blue-800 to-emerald-800 bg-clip-text text-transparent">
+                {t('stats.joinMission')}
+              </span>
             </h3>
-            <p className="text-gray-600 mb-6">
+            <p className="text-lg text-slate-600 mb-8 max-w-3xl mx-auto leading-relaxed font-light">
               {t('stats.missionDescription')}
             </p>
-            <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <button className="inline-flex items-center px-6 py-3 border border-transparent text-base font-medium rounded-lg text-white bg-primary-600 hover:bg-primary-700 transition-colors duration-200">
-                {t('stats.getInvolved')}
+            <div className="flex flex-col sm:flex-row gap-6 justify-center">
+              <button className="group relative inline-flex items-center justify-center px-8 py-4 text-lg font-semibold text-white bg-gradient-to-r from-blue-600 to-emerald-600 rounded-2xl shadow-2xl hover:shadow-blue-500/25 transition-all duration-300 transform hover:scale-105 hover:-translate-y-1">
+                <span className="relative z-10">{t('stats.getInvolved')}</span>
+                <div className="absolute inset-0 bg-gradient-to-r from-blue-700 to-emerald-700 rounded-2xl opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
               </button>
-              <button className="inline-flex items-center px-6 py-3 border-2 border-primary-600 text-base font-medium rounded-lg text-primary-600 hover:bg-primary-600 hover:text-white transition-colors duration-200">
+              <button className="inline-flex items-center justify-center px-8 py-4 text-lg font-semibold text-slate-700 bg-white/80 backdrop-blur-sm border-2 border-slate-200 rounded-2xl hover:bg-white hover:border-slate-300 transition-all duration-300 transform hover:scale-105 hover:-translate-y-1 shadow-lg hover:shadow-xl">
                 {t('stats.learnMore')}
               </button>
             </div>
