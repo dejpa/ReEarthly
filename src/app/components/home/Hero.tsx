@@ -52,7 +52,7 @@ export default function Hero() {
               </span>
             </h1>
             
-            <p className="text-xl lg:text-2xl text-white leading-relaxed max-w-2xl mx-auto lg:mx-0 font-medium drop-shadow-lg">
+            <p className="text-xl lg:text-2xl text-white leading-relaxed max-w-2xl mx-auto lg:mx-0 font-medium drop-shadow-lg bg-black/20 px-6 py-4 rounded-xl backdrop-blur-sm">
               {t('hero.subtitle')}
             </p>
             
