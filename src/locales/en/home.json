@@ -1,0 +1,71 @@
+{
+  "hero": {
+    "title": "Building a Sustainable Future",
+    "subtitle": "Join the movement towards a greener, more sustainable planet with innovative environmental solutions and conscious living practices.",
+    "cta": "Start Your Journey",
+    "secondaryCta": "Learn More",
+    "stats": {
+      "trees": "Trees Planted",
+      "communities": "Communities Reached",
+      "countries": "Countries Involved",
+      "carbon": "Carbon Neutral"
+    }
+  },
+  "features": {
+    "title": "Our Environmental Solutions",
+    "subtitle": "Comprehensive tools and resources to help you make a positive impact on the planet",
+    "sustainableLiving": {
+      "title": "Sustainable Living Guide",
+      "description": "Learn practical tips and strategies for reducing your environmental footprint in everyday life."
+    },
+    "renewableEnergy": {
+      "title": "Renewable Energy Solutions",
+      "description": "Discover clean energy options for your home and community to reduce carbon emissions."
+    },
+    "wasteReduction": {
+      "title": "Waste Reduction Programs",
+      "description": "Join our initiatives to minimize waste through recycling, composting, and circular economy practices."
+    },
+    "carbonTracking": {
+      "title": "Carbon Footprint Tracking",
+      "description": "Monitor and reduce your carbon footprint with our comprehensive tracking and offset programs."
+    },
+    "communityGardens": {
+      "title": "Community Gardens",
+      "description": "Connect with local environmental communities and participate in urban gardening projects."
+    },
+    "impactAnalytics": {
+      "title": "Impact Analytics",
+      "description": "Track your environmental impact with detailed analytics and progress reports."
+    }
+  },
+  "stats": {
+    "title": "Our Global Impact",
+    "subtitle": "Making a difference worldwide through collective environmental action",
+    "joinMission": "Join Our Mission",
+    "missionDescription": "Be part of the solution. Together, we can create a sustainable future for generations to come.",
+    "getInvolved": "Get Involved",
+    "learnMore": "Learn More"
+  },
+  "cta": {
+    "title": "Ready to Make a Difference?",
+    "subtitle": "Join thousands of people worldwide who are already taking action for a sustainable future.",
+    "primaryButton": "Start Your Journey",
+    "secondaryButton": "Contact Us",
+    "benefits": [
+      "Personalized sustainability plan",
+      "Access to exclusive resources",
+      "Join a global community",
+      "Track your environmental impact"
+    ]
+  },
+  "footer": {
+    "company": "Company",
+    "solutions": "Solutions",
+    "resources": "Resources",
+    "support": "Support",
+    "tagline": "Building a sustainable future through innovative environmental solutions and conscious living practices.",
+    "rights": "All rights reserved.",
+    "madeWith": "Made with 🌱 for the planet"
+  }
+}

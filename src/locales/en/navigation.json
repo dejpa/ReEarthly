@@ -1,0 +1,10 @@
+{
+  "navigation": {
+    "home": "Home",
+    "about": "About",
+    "solutions": "Solutions",
+    "blog": "Blog",
+    "contact": "Contact",
+    "getStarted": "Get Started"
+  }
+}

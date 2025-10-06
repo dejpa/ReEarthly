@@ -1,0 +1,71 @@
+{
+  "hero": {
+    "title": "Construire un Avenir Durable",
+    "subtitle": "Rejoignez le mouvement vers une planète plus verte et durable avec des solutions environnementales innovantes et des pratiques de vie consciente.",
+    "cta": "Commencez Votre Voyage",
+    "secondaryCta": "En Savoir Plus",
+    "stats": {
+      "trees": "Arbres Plantés",
+      "communities": "Communautés Atteintes",
+      "countries": "Pays Impliqués",
+      "carbon": "Carbone Neutre"
+    }
+  },
+  "features": {
+    "title": "Nos Solutions Environnementales",
+    "subtitle": "Outils et ressources complets pour vous aider à avoir un impact positif sur la planète",
+    "sustainableLiving": {
+      "title": "Guide de Vie Durable",
+      "description": "Apprenez des conseils pratiques et des stratégies pour réduire votre empreinte environnementale dans la vie quotidienne."
+    },
+    "renewableEnergy": {
+      "title": "Solutions d'Énergie Renouvelable",
+      "description": "Découvrez des options d'énergie propre pour votre maison et votre communauté pour réduire les émissions de carbone."
+    },
+    "wasteReduction": {
+      "title": "Programmes de Réduction des Déchets",
+      "description": "Rejoignez nos initiatives pour minimiser les déchets grâce au recyclage, au compostage et aux pratiques d'économie circulaire."
+    },
+    "carbonTracking": {
+      "title": "Suivi de l'Empreinte Carbone",
+      "description": "Surveillez et réduisez votre empreinte carbone avec nos programmes complets de suivi et de compensation."
+    },
+    "communityGardens": {
+      "title": "Jardins Communautaires",
+      "description": "Connectez-vous avec les communautés environnementales locales et participez à des projets de jardinage urbain."
+    },
+    "impactAnalytics": {
+      "title": "Analyses d'Impact",
+      "description": "Suivez votre impact environnemental avec des analyses détaillées et des rapports de progression."
+    }
+  },
+  "stats": {
+    "title": "Notre Impact Mondial",
+    "subtitle": "Faire une différence dans le monde entier grâce à une action environnementale collective",
+    "joinMission": "Rejoignez Notre Mission",
+    "missionDescription": "Soyez partie de la solution. Ensemble, nous pouvons créer un avenir durable pour les générations à venir.",
+    "getInvolved": "Participer",
+    "learnMore": "En Savoir Plus"
+  },
+  "cta": {
+    "title": "Prêt à Faire la Différence?",
+    "subtitle": "Rejoignez des milliers de personnes dans le monde entier qui agissent déjà pour un avenir durable.",
+    "primaryButton": "Commencez Votre Voyage",
+    "secondaryButton": "Nous Contacter",
+    "benefits": [
+      "Plan de durabilité personnalisé",
+      "Accès à des ressources exclusives",
+      "Rejoignez une communauté mondiale",
+      "Suivez votre impact environnemental"
+    ]
+  },
+  "footer": {
+    "company": "Entreprise",
+    "solutions": "Solutions",
+    "resources": "Ressources",
+    "support": "Support",
+    "tagline": "Construire un avenir durable grâce à des solutions environnementales innovantes et des pratiques de vie consciente.",
+    "rights": "Tous droits réservés.",
+    "madeWith": "Fait avec 🌱 pour la planète"
+  }
+}
