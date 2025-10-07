@@ -1,4 +1,9 @@
 {
+  "hero": {
+    "title": "À propos de reEarthly",
+    "subtitle": "Autonomiser le changement environnemental grâce à la technologie et à la communauté",
+    "description": "Nous construisons une plateforme qui rend la durabilité accessible, mesurable et impactante pour tous."
+  },
   "story": {
     "title": "Notre Histoire",
     "subtitle": "De la vision à la réalité",
@@ -46,7 +51,10 @@
         "title": "Mesurer l'Impact",
         "description": "Suivre et mesurer l'impact environnemental de nos actions collectives"
       }
-    ]
+    ],
+    "joinTitle": "Rejoignez Notre Mission",
+    "joinDescription": "Prêt à faire une différence ? Rejoignez des milliers de personnes qui agissent déjà pour un avenir durable.",
+    "cta": "Commencer Aujourd'hui"
   },
   "values": {
     "title": "Nos Valeurs",
@@ -76,7 +84,11 @@
         "title": "Intégrité",
         "description": "Nous maintenons les plus hauts standards éthiques dans toutes nos interactions et décisions"
       }
-    ]
+    ],
+    "quote": {
+      "text": "Le meilleur moment pour planter un arbre était il y a 20 ans. Le deuxième meilleur moment est maintenant.",
+      "author": "Proverbe Chinois"
+    }
   },
   "team": {
     "title": "Rencontrez Notre Équipe",
@@ -118,6 +130,9 @@
         "bio": "Expert en opérations assurant le bon fonctionnement de nos initiatives d'impact environnemental.",
         "image": "👨‍💼"
       }
-    ]
+    ],
+    "joinTitle": "Rejoignez Notre Équipe",
+    "joinDescription": "Passionné par le changement environnemental ? Nous recherchons toujours des personnes talentueuses pour rejoindre notre mission.",
+    "cta": "Voir les Postes Ouverts"
   }
 }

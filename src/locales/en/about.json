@@ -1,4 +1,9 @@
 {
+  "hero": {
+    "title": "About reEarthly",
+    "subtitle": "Empowering environmental change through technology and community",
+    "description": "We're building a platform that makes sustainability accessible, measurable, and impactful for everyone."
+  },
   "story": {
     "title": "Our Story",
     "subtitle": "From vision to reality",
@@ -46,7 +51,10 @@
         "title": "Measure Impact",
         "description": "Track and measure the environmental impact of our collective actions"
       }
-    ]
+    ],
+    "joinTitle": "Join Our Mission",
+    "joinDescription": "Ready to make a difference? Join thousands of people who are already taking action for a sustainable future.",
+    "cta": "Get Started Today"
   },
   "values": {
     "title": "Our Values",
@@ -76,7 +84,11 @@
         "title": "Integrity",
         "description": "We maintain the highest ethical standards in all our interactions and decisions"
       }
-    ]
+    ],
+    "quote": {
+      "text": "The best time to plant a tree was 20 years ago. The second best time is now.",
+      "author": "Chinese Proverb"
+    }
   },
   "team": {
     "title": "Meet Our Team",
@@ -118,6 +130,9 @@
         "bio": "Operations expert ensuring our environmental impact initiatives run smoothly.",
         "image": "👨‍💼"
       }
-    ]
+    ],
+    "joinTitle": "Join Our Team",
+    "joinDescription": "Passionate about environmental change? We're always looking for talented individuals to join our mission.",
+    "cta": "View Open Positions"
   }
 }

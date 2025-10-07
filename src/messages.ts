@@ -11,9 +11,9 @@ export async function getMessages(locale: string) {
 
     return {
       ...home.default,
-      ...navigation.default,
-      ...footer.default,
-      ...about.default
+      navigation: navigation.default.navigation,
+      footer: footer.default.footer,
+      about: about.default
     };
   } catch (error) {
     console.error(`Failed to load messages for locale: ${locale}`, error);
@@ -27,9 +27,9 @@ export async function getMessages(locale: string) {
 
     return {
       ...home.default,
-      ...navigation.default,
-      ...footer.default,
-      ...about.default
+      navigation: navigation.default.navigation,
+      footer: footer.default.footer,
+      about: about.default
     };
   }
 }
