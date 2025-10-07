@@ -1,30 +1,69 @@
 'use client'
 
 import { useTranslations } from 'next-intl'
+import Image from 'next/image'
 
 export default function AboutHero() {
   const t = useTranslations()
 
   return (
-    <section className="relative bg-gradient-to-br from-primary-50 via-white to-earth-50 overflow-hidden">
-      {/* Background Pattern */}
-      <div className="absolute inset-0 opacity-5">
-        <div className="absolute inset-0" style={{
-          backgroundImage: `url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%2322c55e' fill-opacity='0.4'%3E%3Ccircle cx='30' cy='30' r='4'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E")`,
-        }} />
+    <section className="relative min-h-screen flex items-center bg-gradient-to-br from-slate-50 via-white to-emerald-50 overflow-hidden">
+      {/* Image Background */}
+      <div className="absolute inset-0 w-full h-full">
+        <Image
+          src="/about-hero.webp"
+          alt="About reEarthly - Environmental sustainability and green technology"
+          fill
+          className="object-cover opacity-90"
+          priority
+        />
+        {/* Minimal gradient overlay for text readability */}
+        <div className="absolute inset-0 bg-gradient-to-br from-black/30 via-transparent to-black/30"></div>
+        
+        {/* Subtle animated background elements */}
+        <div className="absolute inset-0">
+          <div className="absolute top-20 left-10 w-72 h-72 bg-gradient-to-r from-blue-400/10 to-emerald-400/10 rounded-full blur-3xl animate-pulse"></div>
+          <div className="absolute bottom-20 right-10 w-96 h-96 bg-gradient-to-r from-emerald-400/10 to-blue-400/10 rounded-full blur-3xl animate-pulse delay-1000"></div>
+        </div>
       </div>
 
-      <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 lg:py-32">
-        <div className="text-center">
-          <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-gray-900 leading-tight mb-6">
-            {t('about.hero.title')}
+      <div className="relative max-w-7xl mx-auto px-6 sm:px-8 lg:px-12 py-24 lg:py-32">
+        <div className="text-center space-y-8">
+          {/* Modern Badge */}
+          <div className="inline-flex items-center px-6 py-3 rounded-full bg-gradient-to-r from-blue-500/10 to-emerald-500/10 border border-blue-200/20 backdrop-blur-sm">
+            <span className="text-sm font-medium text-blue-700">🌱 About reEarthly</span>
+          </div>
+          
+          {/* Modern Title */}
+          <h1 className="text-5xl sm:text-6xl lg:text-7xl font-black leading-[0.9] tracking-tight">
+            <span className="bg-gradient-to-r from-slate-900 via-blue-800 to-emerald-800 bg-clip-text text-transparent">
+              {t('about.hero.title')}
+            </span>
           </h1>
-          <p className="text-xl text-gray-600 leading-relaxed max-w-4xl mx-auto mb-8">
+          
+          {/* Modern Subtitle */}
+          <p className="text-xl lg:text-2xl text-white leading-relaxed max-w-4xl mx-auto font-medium drop-shadow-lg px-8 py-6 rounded-2xl backdrop-blur-sm">
             {t('about.hero.subtitle')}
           </p>
-          <p className="text-lg text-gray-500 max-w-3xl mx-auto">
+          
+          {/* Modern Description */}
+          <p className="text-lg lg:text-xl text-white/90 leading-relaxed max-w-3xl mx-auto font-light drop-shadow-lg px-6 py-4 rounded-xl backdrop-blur-sm">
             {t('about.hero.description')}
           </p>
+
+          {/* Modern CTA Buttons */}
+          <div className="flex flex-col sm:flex-row gap-6 justify-center pt-8">
+            <button className="group relative inline-flex items-center justify-center px-10 py-5 text-lg font-semibold text-white bg-gradient-to-r from-blue-600 to-emerald-600 rounded-2xl shadow-2xl hover:shadow-blue-500/25 transition-all duration-300 transform hover:scale-105 hover:-translate-y-1">
+              <span className="relative z-10">Join Our Mission</span>
+              <div className="absolute inset-0 bg-gradient-to-r from-blue-700 to-emerald-700 rounded-2xl opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+              <svg className="ml-3 w-5 h-5 group-hover:translate-x-1 transition-transform duration-300" fill="currentColor" viewBox="0 0 20 20">
+                <path fillRule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clipRule="evenodd" />
+              </svg>
+            </button>
+            <button className="inline-flex items-center justify-center px-10 py-5 text-lg font-semibold text-slate-700 bg-white/80 backdrop-blur-sm border-2 border-slate-200 rounded-2xl hover:bg-white hover:border-slate-300 transition-all duration-300 transform hover:scale-105 hover:-translate-y-1 shadow-lg hover:shadow-xl">
+              Learn More
+            </button>
+          </div>
         </div>
       </div>
 

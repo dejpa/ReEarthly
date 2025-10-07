@@ -1,6 +1,6 @@
 {
   "hero": {
-    "title": "À propos de reEarthly",
+    "title": "À propos de ReEarthly",
     "subtitle": "Autonomiser le changement environnemental grâce à la technologie et à la communauté",
     "description": "Nous construisons une plateforme qui rend la durabilité accessible, mesurable et impactante pour tous."
   },
@@ -62,27 +62,33 @@
     "values": [
       {
         "title": "Durabilité",
-        "description": "Nous pratiquons ce que nous prêchons, assurant que toutes nos opérations sont respectueuses de l'environnement"
+        "description": "Nous pratiquons ce que nous prêchons, assurant que toutes nos opérations sont respectueuses de l'environnement",
+        "icon": "🌱"
       },
       {
         "title": "Transparence",
-        "description": "Nous croyons en une communication ouverte sur notre impact, nos défis et nos succès"
+        "description": "Nous croyons en une communication ouverte sur notre impact, nos défis et nos succès",
+        "icon": "🔍"
       },
       {
         "title": "Innovation",
-        "description": "Nous cherchons constamment de nouvelles et meilleures façons d'aborder les défis environnementaux"
+        "description": "Nous cherchons constamment de nouvelles et meilleures façons d'aborder les défis environnementaux",
+        "icon": "💡"
       },
       {
         "title": "Communauté",
-        "description": "Nous croyons au pouvoir de l'action collective et du changement communautaire"
+        "description": "Nous croyons au pouvoir de l'action collective et du changement communautaire",
+        "icon": "🤝"
       },
       {
         "title": "Accessibilité",
-        "description": "Les solutions environnementales devraient être accessibles à tous, indépendamment du milieu"
+        "description": "Les solutions environnementales devraient être accessibles à tous, indépendamment du milieu",
+        "icon": "♿"
       },
       {
         "title": "Intégrité",
-        "description": "Nous maintenons les plus hauts standards éthiques dans toutes nos interactions et décisions"
+        "description": "Nous maintenons les plus hauts standards éthiques dans toutes nos interactions et décisions",
+        "icon": "⚖️"
       }
     ],
     "quote": {
@@ -92,43 +98,19 @@
   },
   "team": {
     "title": "Rencontrez Notre Équipe",
-    "subtitle": "Les individus passionnés derrière reEarthly",
+    "subtitle": "Les individus passionnés derrière ReEarthly",
     "members": [
       {
-        "name": "Sarah Johnson",
-        "role": "PDG et Co-fondatrice",
-        "bio": "Scientifique environnementale avec plus de 15 ans d'expérience en durabilité et action climatique.",
-        "image": "👩‍💼"
-      },
-      {
-        "name": "Marcus Chen",
-        "role": "CTO et Co-fondateur",
-        "bio": "Innovateur technologique passionné par l'utilisation de la technologie pour résoudre les défis environnementaux.",
+        "name": "Vahid Sheikhi",
+        "role": "PDG et Co-fondateur",
+        "bio": "Scientifique environnemental avec plus de 15 ans d'expérience en durabilité et action climatique.",
         "image": "👨‍💻"
       },
       {
-        "name": "Elena Rodriguez",
-        "role": "Responsable de la Communauté",
-        "bio": "Organisatrice communautaire experte dans la construction de communautés environnementales engagées.",
-        "image": "👩‍🌾"
-      },
-      {
-        "name": "David Kim",
-        "role": "Scientifique Principal",
-        "bio": "Chercheur climatique axé sur le développement de solutions environnementales pratiques.",
-        "image": "👨‍🔬"
-      },
-      {
-        "name": "Aisha Patel",
-        "role": "Responsable de l'Éducation",
-        "bio": "Éducatrice environnementale dédiée à rendre la durabilité accessible à tous.",
-        "image": "👩‍🏫"
-      },
-      {
-        "name": "James Wilson",
-        "role": "Directeur des Opérations",
-        "bio": "Expert en opérations assurant le bon fonctionnement de nos initiatives d'impact environnemental.",
-        "image": "👨‍💼"
+        "name": "Sarah Chen",
+        "role": "CTO et Co-fondatrice",
+        "bio": "Innovatrice technologique passionnée par l'utilisation de la technologie pour résoudre les défis environnementaux.",
+        "image": "👩‍💼"
       }
     ],
     "joinTitle": "Rejoignez Notre Équipe",

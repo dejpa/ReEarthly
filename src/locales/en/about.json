@@ -1,6 +1,6 @@
 {
   "hero": {
-    "title": "About reEarthly",
+    "title": "About ReEarthly",
     "subtitle": "Empowering environmental change through technology and community",
     "description": "We're building a platform that makes sustainability accessible, measurable, and impactful for everyone."
   },
@@ -62,27 +62,33 @@
     "values": [
       {
         "title": "Sustainability",
-        "description": "We practice what we preach, ensuring all our operations are environmentally responsible"
+        "description": "We practice what we preach, ensuring all our operations are environmentally responsible",
+        "icon": "🌱"
       },
       {
         "title": "Transparency",
-        "description": "We believe in open communication about our impact, challenges, and successes"
+        "description": "We believe in open communication about our impact, challenges, and successes",
+        "icon": "🔍"
       },
       {
         "title": "Innovation",
-        "description": "We constantly seek new and better ways to address environmental challenges"
+        "description": "We constantly seek new and better ways to address environmental challenges",
+        "icon": "💡"
       },
       {
         "title": "Community",
-        "description": "We believe in the power of collective action and community-driven change"
+        "description": "We believe in the power of collective action and community-driven change",
+        "icon": "🤝"
       },
       {
         "title": "Accessibility",
-        "description": "Environmental solutions should be accessible to everyone, regardless of background"
+        "description": "Environmental solutions should be accessible to everyone, regardless of background",
+        "icon": "♿"
       },
       {
         "title": "Integrity",
-        "description": "We maintain the highest ethical standards in all our interactions and decisions"
+        "description": "We maintain the highest ethical standards in all our interactions and decisions",
+        "icon": "⚖️"
       }
     ],
     "quote": {
@@ -92,43 +98,19 @@
   },
   "team": {
     "title": "Meet Our Team",
-    "subtitle": "The passionate individuals behind reEarthly",
+    "subtitle": "The passionate individuals behind ReEarthly",
     "members": [
       {
-        "name": "Sarah Johnson",
+        "name": "Vahid Sheikhi",
         "role": "CEO & Co-Founder",
         "bio": "Environmental scientist with 15+ years of experience in sustainability and climate action.",
-        "image": "👩‍💼"
-      },
-      {
-        "name": "Marcus Chen",
-        "role": "CTO & Co-Founder",
-        "bio": "Tech innovator passionate about using technology to solve environmental challenges.",
         "image": "👨‍💻"
       },
       {
-        "name": "Elena Rodriguez",
-        "role": "Head of Community",
-        "bio": "Community organizer with expertise in building engaged environmental communities.",
-        "image": "👩‍🌾"
-      },
-      {
-        "name": "David Kim",
-        "role": "Lead Scientist",
-        "bio": "Climate researcher focused on developing practical environmental solutions.",
-        "image": "👨‍🔬"
-      },
-      {
-        "name": "Aisha Patel",
-        "role": "Head of Education",
-        "bio": "Environmental educator dedicated to making sustainability accessible to all.",
-        "image": "👩‍🏫"
-      },
-      {
-        "name": "James Wilson",
-        "role": "Operations Director",
-        "bio": "Operations expert ensuring our environmental impact initiatives run smoothly.",
-        "image": "👨‍💼"
+        "name": "Sarah Chen",
+        "role": "CTO & Co-Founder",
+        "bio": "Tech innovator passionate about using technology to solve environmental challenges.",
+        "image": "👩‍💼"
       }
     ],
     "joinTitle": "Join Our Team",
