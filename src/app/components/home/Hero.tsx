@@ -52,9 +52,9 @@ export default function Hero() {
               </span>
             </h1>
             
-            <p className="text-xl lg:text-2xl text-white leading-relaxed max-w-2xl mx-auto lg:mx-0 font-medium drop-shadow-lg bg-black/20 px-6 py-4 rounded-xl backdrop-blur-sm">
+            {/* <p className="text-xl lg:text-2xl text-white leading-relaxed max-w-2xl mx-auto lg:mx-0 font-medium drop-shadow-lg bg-black/20 px-6 py-4 rounded-xl backdrop-blur-sm">
               {t('hero.subtitle')}
-            </p>
+            </p> */}
             
             <div className="flex flex-col sm:flex-row gap-6 justify-center lg:justify-start">
               <button className="group relative inline-flex items-center justify-center px-8 py-4 text-lg font-semibold text-white bg-gradient-to-r from-blue-600 to-emerald-600 rounded-2xl shadow-2xl hover:shadow-blue-500/25 transition-all duration-300 transform hover:scale-105 hover:-translate-y-1">
