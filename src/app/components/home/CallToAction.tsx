@@ -27,7 +27,7 @@ export default function CallToAction() {
           {/* Modern Content */}
           <div className="text-white space-y-8">
             <div className="inline-flex items-center px-4 py-2 rounded-full bg-white/10 backdrop-blur-sm border border-white/20 mb-6">
-              <span className="text-sm font-medium text-white/90">🚀 Ready to Start?</span>
+              <span className="text-sm font-medium text-white/90">🚀 {t('cta.badge')}</span>
             </div>
             
             <h2 className="text-4xl sm:text-5xl lg:text-6xl font-black leading-tight">
@@ -76,7 +76,7 @@ export default function CallToAction() {
                 <div className="space-y-6">
                   <div className="space-y-3">
                     <div className="flex justify-between items-center">
-                      <span className="text-white font-semibold text-lg">Carbon Footprint</span>
+                      <span className="text-white font-semibold text-lg">{t('cta.metrics.carbonFootprint')}</span>
                       <span className="text-emerald-300 font-bold text-lg">-45%</span>
                     </div>
                     <div className="w-full bg-white/20 rounded-full h-4 overflow-hidden">
@@ -86,7 +86,7 @@ export default function CallToAction() {
 
                   <div className="space-y-3">
                     <div className="flex justify-between items-center">
-                      <span className="text-white font-semibold text-lg">Energy Savings</span>
+                      <span className="text-white font-semibold text-lg">{t('cta.metrics.energySavings')}</span>
                       <span className="text-blue-300 font-bold text-lg">+30%</span>
                     </div>
                     <div className="w-full bg-white/20 rounded-full h-4 overflow-hidden">
@@ -96,7 +96,7 @@ export default function CallToAction() {
 
                   <div className="space-y-3">
                     <div className="flex justify-between items-center">
-                      <span className="text-white font-semibold text-lg">Waste Reduction</span>
+                      <span className="text-white font-semibold text-lg">{t('cta.metrics.wasteReduction')}</span>
                       <span className="text-emerald-300 font-bold text-lg">-60%</span>
                     </div>
                     <div className="w-full bg-white/20 rounded-full h-4 overflow-hidden">
@@ -109,11 +109,11 @@ export default function CallToAction() {
                 <div className="grid grid-cols-2 gap-6 pt-6 border-t border-white/20">
                   <div className="text-center group">
                     <div className="text-3xl font-black text-white group-hover:scale-110 transition-transform duration-300">1.2M</div>
-                    <div className="text-sm text-white/70 font-medium">Trees Saved</div>
+                    <div className="text-sm text-white/70 font-medium">{t('cta.metrics.treesSaved')}</div>
                   </div>
                   <div className="text-center group">
                     <div className="text-3xl font-black text-white group-hover:scale-110 transition-transform duration-300">500K</div>
-                    <div className="text-sm text-white/70 font-medium">Lives Impacted</div>
+                    <div className="text-sm text-white/70 font-medium">{t('cta.metrics.livesImpacted')}</div>
                   </div>
                 </div>
               </div>

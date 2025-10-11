@@ -1,12 +1,15 @@
 'use client'
 
 import { useState, useEffect } from 'react'
-import { useTranslations, useLocale } from 'next-intl'
+import { useTranslations } from 'next-intl'
+import { usePathname } from 'next/navigation'
+import Link from 'next/link'
 import { formatCompactNumber } from '@/src/i18n'
 
 export default function Stats() {
   const t = useTranslations()
-  const locale = useLocale()
+  const pathname = usePathname()
+  const locale = pathname.split('/')[1] || 'en'
   const [counts, setCounts] = useState({
     trees: 0,
     communities: 0,
@@ -18,26 +21,26 @@ export default function Stats() {
     {
       number: 1250000,
       suffix: '+',
-      label: locale === 'en' ? 'Trees Planted' : 'Arbres Plantés',
-      description: locale === 'en' ? 'Contributing to reforestation efforts globally' : 'Contribuant aux efforts de reforestation dans le monde'
+      label: t('stats.items.0.label'),
+      description: t('stats.items.0.description')
     },
     {
       number: 2500,
       suffix: '+',
-      label: locale === 'en' ? 'Communities Reached' : 'Communautés Atteintes',
-      description: locale === 'en' ? 'Local communities actively participating' : 'Communautés locales participant activement'
+      label: t('stats.items.1.label'),
+      description: t('stats.items.1.description')
     },
     {
       number: 75,
       suffix: '+',
-      label: locale === 'en' ? 'Countries Involved' : 'Pays Impliqués',
-      description: locale === 'en' ? 'Global presence and impact' : 'Présence et impact mondial'
+      label: t('stats.items.2.label'),
+      description: t('stats.items.2.description')
     },
     {
       number: 99,
       suffix: '%',
-      label: locale === 'en' ? 'Carbon Neutral' : 'Carbone Neutre',
-      description: locale === 'en' ? 'Achieved carbon neutrality in operations' : 'Neutralité carbone atteinte dans les opérations'
+      label: t('stats.items.3.label'),
+      description: t('stats.items.3.description')
     }
   ]
 
@@ -85,7 +88,7 @@ export default function Stats() {
         {/* Modern Header */}
         <div className="text-center mb-20">
           <div className="inline-flex items-center px-4 py-2 rounded-full bg-gradient-to-r from-blue-500/10 to-emerald-500/10 border border-blue-200/20 backdrop-blur-sm mb-6">
-            <span className="text-sm font-medium text-blue-700">📊 Our Impact</span>
+            <span className="text-sm font-medium text-blue-700">📊 {t('stats.badge')}</span>
           </div>
           <h2 className="text-4xl sm:text-5xl lg:text-6xl font-black leading-tight mb-6">
             <span className="bg-gradient-to-r from-slate-900 via-blue-800 to-emerald-800 bg-clip-text text-transparent">
@@ -158,9 +161,11 @@ export default function Stats() {
                 <span className="relative z-10">{t('stats.getInvolved')}</span>
                 <div className="absolute inset-0 bg-gradient-to-r from-blue-700 to-emerald-700 rounded-2xl opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
               </button>
-              <button className="inline-flex items-center justify-center px-8 py-4 text-lg font-semibold text-slate-700 bg-white/80 backdrop-blur-sm border-2 border-slate-200 rounded-2xl hover:bg-white hover:border-slate-300 transition-all duration-300 transform hover:scale-105 hover:-translate-y-1 shadow-lg hover:shadow-xl">
-                {t('stats.learnMore')}
-              </button>
+              <Link href={`/${locale}/about`}>
+                <button className="inline-flex items-center justify-center px-8 py-4 text-lg font-semibold text-slate-700 bg-white/80 backdrop-blur-sm border-2 border-slate-200 rounded-2xl hover:bg-white hover:border-slate-300 transition-all duration-300 transform hover:scale-105 hover:-translate-y-1 shadow-lg hover:shadow-xl">
+                  {t('stats.learnMore')}
+                </button>
+              </Link>
             </div>
           </div>
         </div>

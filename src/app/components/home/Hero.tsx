@@ -1,11 +1,14 @@
 'use client'
 
-import { useTranslations, useLocale } from 'next-intl'
+import { useTranslations } from 'next-intl'
+import { usePathname } from 'next/navigation'
+import Link from 'next/link'
 import { formatCompactNumber } from '@/src/i18n'
 
 export default function Hero() {
   const t = useTranslations()
-  const locale = useLocale()
+  const pathname = usePathname()
+  const locale = pathname.split('/')[1] || 'en'
 
   const statsData = [
     { number: 1250, label: t('hero.stats.trees') },
@@ -43,7 +46,7 @@ export default function Hero() {
           <div className="text-center lg:text-left space-y-8">
             {/* Badge */}
             <div className="inline-flex items-center px-4 py-2 rounded-full bg-gradient-to-r from-blue-500/10 to-emerald-500/10 border border-blue-200/20 backdrop-blur-sm">
-              <span className="text-sm font-medium text-blue-700">🌱 Sustainable Future</span>
+              <span className="text-sm font-medium text-blue-700">🌱 {t('hero.badge')}</span>
             </div>
             
             <h1 className="text-5xl sm:text-6xl lg:text-7xl font-black leading-[0.9] tracking-tight">
@@ -64,9 +67,11 @@ export default function Hero() {
                   <path fillRule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clipRule="evenodd" />
                 </svg>
               </button>
-              <button className="inline-flex items-center justify-center px-8 py-4 text-lg font-semibold text-slate-700 bg-white/80 backdrop-blur-sm border-2 border-slate-200 rounded-2xl hover:bg-white hover:border-slate-300 transition-all duration-300 transform hover:scale-105 hover:-translate-y-1 shadow-lg hover:shadow-xl">
-                {t('hero.secondaryCta')}
-              </button>
+              <Link href={`/${locale}/about`}>
+                <button className="inline-flex items-center justify-center px-8 py-4 text-lg font-semibold text-slate-700 bg-white/80 backdrop-blur-sm border-2 border-slate-200 rounded-2xl hover:bg-white hover:border-slate-300 transition-all duration-300 transform hover:scale-105 hover:-translate-y-1 shadow-lg hover:shadow-xl">
+                  {t('hero.secondaryCta')}
+                </button>
+              </Link>
             </div>
 
             {/* Modern Stats Grid */}

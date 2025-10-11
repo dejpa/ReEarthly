@@ -1,5 +1,6 @@
 {
   "hero": {
+    "badge": "Avenir Durable",
     "title": "Construire un Avenir Durable",
     "subtitle": "Rejoignez le mouvement vers une planète plus verte et durable avec des solutions environnementales innovantes et des pratiques de vie consciente.",
     "cta": "Commencez Votre Voyage",
@@ -12,8 +13,10 @@
     }
   },
   "features": {
+    "badge": "Nos Solutions",
     "title": "Nos Solutions Environnementales",
     "subtitle": "Outils et ressources complets pour vous aider à avoir un impact positif sur la planète",
+    "exploreCta": "Explorer Toutes les Solutions",
     "sustainableLiving": {
       "title": "Guide de Vie Durable",
       "description": "Apprenez des conseils pratiques et des stratégies pour réduire votre empreinte environnementale dans la vie quotidienne."
@@ -40,14 +43,34 @@
     }
   },
   "stats": {
+    "badge": "Notre Impact",
     "title": "Notre Impact Mondial",
     "subtitle": "Faire une différence dans le monde entier grâce à une action environnementale collective",
     "joinMission": "Rejoignez Notre Mission",
     "missionDescription": "Soyez partie de la solution. Ensemble, nous pouvons créer un avenir durable pour les générations à venir.",
     "getInvolved": "Participer",
-    "learnMore": "En Savoir Plus"
+    "learnMore": "En Savoir Plus",
+    "items": [
+      {
+        "label": "Arbres Plantés",
+        "description": "Contribuant aux efforts de reforestation dans le monde"
+      },
+      {
+        "label": "Communautés Atteintes",
+        "description": "Communautés locales participant activement"
+      },
+      {
+        "label": "Pays Impliqués",
+        "description": "Présence et impact mondial"
+      },
+      {
+        "label": "Carbone Neutre",
+        "description": "Neutralité carbone atteinte dans les opérations"
+      }
+    ]
   },
   "cta": {
+    "badge": "Prêt à Commencer?",
     "title": "Prêt à Faire la Différence?",
     "subtitle": "Rejoignez des milliers de personnes dans le monde entier qui agissent déjà pour un avenir durable.",
     "primaryButton": "Commencez Votre Voyage",
@@ -57,7 +80,14 @@
       "Accès à des ressources exclusives",
       "Rejoignez une communauté mondiale",
       "Suivez votre impact environnemental"
-    ]
+    ],
+    "metrics": {
+      "carbonFootprint": "Empreinte Carbone",
+      "energySavings": "Économies d'Énergie",
+      "wasteReduction": "Réduction des Déchets",
+      "treesSaved": "Arbres Sauvés",
+      "livesImpacted": "Vies Impactées"
+    }
   },
   "footer": {
     "company": "Entreprise",
