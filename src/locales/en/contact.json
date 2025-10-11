@@ -1,0 +1,48 @@
+{
+  "hero": {
+    "badge": "Get in Touch",
+    "title": "Contact Us",
+    "description": "Have questions or want to learn more? We'd love to hear from you. Reach out to us and let's start a conversation about creating a sustainable future together."
+  },
+  "form": {
+    "title": "Send Us a Message",
+    "subtitle": "Fill out the form below and we'll get back to you as soon as possible",
+    "nameLabel": "Full Name",
+    "namePlaceholder": "John Doe",
+    "emailLabel": "Email Address",
+    "emailPlaceholder": "john@example.com",
+    "subjectLabel": "Subject",
+    "subjectPlaceholder": "Select a subject",
+    "subjects": [
+      "General Inquiry",
+      "Partnership Opportunities",
+      "Technical Support",
+      "Media & Press"
+    ],
+    "messageLabel": "Message",
+    "messagePlaceholder": "Tell us more about how we can help you...",
+    "submitButton": "Send Message"
+  },
+  "info": {
+    "title": "Other Ways to Reach Us",
+    "subtitle": "Choose the method that works best for you",
+    "email": {
+      "title": "Email Us"
+    },
+    "phone": {
+      "title": "Call Us"
+    },
+    "location": {
+      "title": "Visit Us",
+      "address": "123 Green Street, San Francisco, CA 94102, USA"
+    },
+    "followUs": "Follow Us on Social Media"
+  },
+  "map": {
+    "title": "Find Us",
+    "subtitle": "Visit our office or reach out online",
+    "placeholder": "Map Location",
+    "description": "Interactive map coming soon"
+  }
+}
+

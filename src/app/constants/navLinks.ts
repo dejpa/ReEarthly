@@ -27,12 +27,6 @@ export const mainNavLinks: NavLink[] = [
     description: 'Explore our environmental solutions'
   },
   {
-    href: '/blog',
-    key: 'blog',
-    label: 'Blog',
-    description: 'Read our latest articles'
-  },
-  {
     href: '/contact',
     key: 'contact',
     label: 'Contact',

@@ -1,0 +1,48 @@
+{
+  "hero": {
+    "badge": "Contactez-nous",
+    "title": "Nous Contacter",
+    "description": "Vous avez des questions ou souhaitez en savoir plus? Nous serions ravis de vous entendre. Contactez-nous et commençons une conversation sur la création d'un avenir durable ensemble."
+  },
+  "form": {
+    "title": "Envoyez-nous un Message",
+    "subtitle": "Remplissez le formulaire ci-dessous et nous vous répondrons dans les plus brefs délais",
+    "nameLabel": "Nom Complet",
+    "namePlaceholder": "Jean Dupont",
+    "emailLabel": "Adresse Email",
+    "emailPlaceholder": "jean@exemple.com",
+    "subjectLabel": "Sujet",
+    "subjectPlaceholder": "Sélectionnez un sujet",
+    "subjects": [
+      "Demande Générale",
+      "Opportunités de Partenariat",
+      "Support Technique",
+      "Médias et Presse"
+    ],
+    "messageLabel": "Message",
+    "messagePlaceholder": "Dites-nous en plus sur comment nous pouvons vous aider...",
+    "submitButton": "Envoyer le Message"
+  },
+  "info": {
+    "title": "Autres Façons de Nous Joindre",
+    "subtitle": "Choisissez la méthode qui vous convient le mieux",
+    "email": {
+      "title": "Envoyez-nous un Email"
+    },
+    "phone": {
+      "title": "Appelez-nous"
+    },
+    "location": {
+      "title": "Visitez-nous",
+      "address": "123 Rue Verte, San Francisco, CA 94102, USA"
+    },
+    "followUs": "Suivez-nous sur les Réseaux Sociaux"
+  },
+  "map": {
+    "title": "Trouvez-nous",
+    "subtitle": "Visitez notre bureau ou contactez-nous en ligne",
+    "placeholder": "Localisation sur la Carte",
+    "description": "Carte interactive à venir"
+  }
+}
+
