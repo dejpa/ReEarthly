@@ -12,7 +12,7 @@ export default function AboutHero() {
       <div className="absolute inset-0 w-full h-full">
         <Image
           src="/about-hero.webp"
-          alt="About reEarthly - Environmental sustainability and green technology"
+          alt="About ReEarthly - Environmental sustainability and green technology"
           fill
           className="object-cover opacity-90"
           priority
@@ -31,7 +31,7 @@ export default function AboutHero() {
         <div className="text-center space-y-8">
           {/* Modern Badge */}
           <div className="inline-flex items-center px-6 py-3 rounded-full bg-gradient-to-r from-blue-500/10 to-emerald-500/10 border border-blue-200/20 backdrop-blur-sm">
-            <span className="text-sm font-medium text-blue-700">🌱 About reEarthly</span>
+            <span className="text-sm font-medium text-blue-700">🌱 {t('about.hero.badge')}</span>
           </div>
           
           {/* Modern Title */}
@@ -54,14 +54,14 @@ export default function AboutHero() {
           {/* Modern CTA Buttons */}
           <div className="flex flex-col sm:flex-row gap-6 justify-center pt-8">
             <button className="group relative inline-flex items-center justify-center px-10 py-5 text-lg font-semibold text-white bg-gradient-to-r from-blue-600 to-emerald-600 rounded-2xl shadow-2xl hover:shadow-blue-500/25 transition-all duration-300 transform hover:scale-105 hover:-translate-y-1">
-              <span className="relative z-10">Join Our Mission</span>
+              <span className="relative z-10">{t('about.hero.primaryCTA')}</span>
               <div className="absolute inset-0 bg-gradient-to-r from-blue-700 to-emerald-700 rounded-2xl opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
               <svg className="ml-3 w-5 h-5 group-hover:translate-x-1 transition-transform duration-300" fill="currentColor" viewBox="0 0 20 20">
                 <path fillRule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clipRule="evenodd" />
               </svg>
             </button>
             <button className="inline-flex items-center justify-center px-10 py-5 text-lg font-semibold text-slate-700 bg-white/80 backdrop-blur-sm border-2 border-slate-200 rounded-2xl hover:bg-white hover:border-slate-300 transition-all duration-300 transform hover:scale-105 hover:-translate-y-1 shadow-lg hover:shadow-xl">
-              Learn More
+              {t('about.hero.secondaryCTA')}
             </button>
           </div>
         </div>

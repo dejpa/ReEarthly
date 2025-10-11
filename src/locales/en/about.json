@@ -1,13 +1,20 @@
 {
   "hero": {
+    "badge": "About ReEarthly",
     "title": "About ReEarthly",
     "subtitle": "Empowering environmental change through technology and community",
-    "description": "We're building a platform that makes sustainability accessible, measurable, and impactful for everyone."
+    "description": "We're building a platform that makes sustainability accessible, measurable, and impactful for everyone.",
+    "primaryCTA": "Join Our Mission",
+    "secondaryCTA": "Learn More"
   },
   "story": {
+    "badge": "Our Journey",
     "title": "Our Story",
     "subtitle": "From vision to reality",
-    "content": "reEarthly was born from a simple yet powerful belief: that every individual has the power to create positive environmental change. Our journey began when our founders witnessed firsthand the devastating effects of climate change and environmental degradation. We realized that while the problems were global, the solutions needed to be personal, practical, and accessible to everyone.",
+    "content": "ReEarthly was born from a simple yet powerful belief: that every individual has the power to create positive environmental change. Our journey began when our founders witnessed firsthand the devastating effects of climate change and environmental degradation. We realized that while the problems were global, the solutions needed to be personal, practical, and accessible to everyone.",
+    "ctaTitle": "Ready to Write Your Story?",
+    "ctaDescription": "Join thousands of people who are already making a difference in their communities.",
+    "ctaButton": "Start Your Journey",
     "milestones": [
       {
         "year": "2023",
@@ -27,6 +34,7 @@
     ]
   },
   "mission": {
+    "badge": "Our Mission",
     "title": "Our Mission",
     "subtitle": "Building a sustainable future together",
     "description": "Our mission is to empower individuals, communities, and organizations to take meaningful action towards environmental sustainability. We believe that small actions, when multiplied by millions of people, can create massive positive change.",
@@ -57,8 +65,10 @@
     "cta": "Get Started Today"
   },
   "values": {
+    "badge": "Our Values",
     "title": "Our Values",
     "subtitle": "The principles that guide everything we do",
+    "quoteBadge": "Inspiration",
     "values": [
       {
         "title": "Sustainability",
@@ -97,8 +107,10 @@
     }
   },
   "team": {
+    "badge": "Our Team",
     "title": "Meet Our Team",
     "subtitle": "The passionate individuals behind ReEarthly",
+    "joinBadge": "Join Our Team",
     "members": [
       {
         "name": "Vahid Sheikhi",

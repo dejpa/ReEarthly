@@ -17,7 +17,7 @@ export default function OurValues() {
         {/* Modern Header */}
         <div className="text-center mb-20">
           <div className="inline-flex items-center px-4 py-2 rounded-full bg-gradient-to-r from-blue-500/10 to-emerald-500/10 border border-blue-200/20 backdrop-blur-sm mb-6">
-            <span className="text-sm font-medium text-blue-700">💎 Our Values</span>
+            <span className="text-sm font-medium text-blue-700">💎 {t('about.values.badge')}</span>
           </div>
           <h2 className="text-4xl sm:text-5xl lg:text-6xl font-black leading-tight mb-6">
             <span className="bg-gradient-to-r from-slate-900 via-blue-800 to-emerald-800 bg-clip-text text-transparent">
@@ -69,7 +69,7 @@ export default function OurValues() {
             
             <div className="relative z-10">
               <div className="inline-flex items-center px-4 py-2 rounded-full bg-white/10 backdrop-blur-sm border border-white/20 mb-8">
-                <span className="text-sm font-medium text-white/90">💭 Inspiration</span>
+                <span className="text-sm font-medium text-white/90">💭 {t('about.values.quoteBadge')}</span>
               </div>
               
               <blockquote className="text-2xl lg:text-3xl font-medium leading-relaxed mb-8 max-w-4xl mx-auto">

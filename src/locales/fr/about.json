@@ -1,13 +1,20 @@
 {
   "hero": {
+    "badge": "À Propos de ReEarthly",
     "title": "À propos de ReEarthly",
     "subtitle": "Autonomiser le changement environnemental grâce à la technologie et à la communauté",
-    "description": "Nous construisons une plateforme qui rend la durabilité accessible, mesurable et impactante pour tous."
+    "description": "Nous construisons une plateforme qui rend la durabilité accessible, mesurable et impactante pour tous.",
+    "primaryCTA": "Rejoignez Notre Mission",
+    "secondaryCTA": "En Savoir Plus"
   },
   "story": {
+    "badge": "Notre Parcours",
     "title": "Notre Histoire",
     "subtitle": "De la vision à la réalité",
-    "content": "reEarthly est née d'une croyance simple mais puissante : que chaque individu a le pouvoir de créer un changement environnemental positif. Notre voyage a commencé lorsque nos fondateurs ont été témoins de première main des effets dévastateurs du changement climatique et de la dégradation environnementale. Nous avons réalisé que bien que les problèmes soient mondiaux, les solutions devaient être personnelles, pratiques et accessibles à tous.",
+    "content": "ReEarthly est née d'une croyance simple mais puissante : que chaque individu a le pouvoir de créer un changement environnemental positif. Notre voyage a commencé lorsque nos fondateurs ont été témoins de première main des effets dévastateurs du changement climatique et de la dégradation environnementale. Nous avons réalisé que bien que les problèmes soient mondiaux, les solutions devaient être personnelles, pratiques et accessibles à tous.",
+    "ctaTitle": "Prêt à Écrire Votre Histoire?",
+    "ctaDescription": "Rejoignez des milliers de personnes qui font déjà la différence dans leurs communautés.",
+    "ctaButton": "Commencez Votre Voyage",
     "milestones": [
       {
         "year": "2023",
@@ -27,6 +34,7 @@
     ]
   },
   "mission": {
+    "badge": "Notre Mission",
     "title": "Notre Mission",
     "subtitle": "Construire un avenir durable ensemble",
     "description": "Notre mission est d'autonomiser les individus, les communautés et les organisations à prendre des mesures significatives vers la durabilité environnementale. Nous croyons que les petites actions, multipliées par des millions de personnes, peuvent créer un changement positif massif.",
@@ -57,8 +65,10 @@
     "cta": "Commencer Aujourd'hui"
   },
   "values": {
+    "badge": "Nos Valeurs",
     "title": "Nos Valeurs",
     "subtitle": "Les principes qui guident tout ce que nous faisons",
+    "quoteBadge": "Inspiration",
     "values": [
       {
         "title": "Durabilité",
@@ -97,8 +107,10 @@
     }
   },
   "team": {
+    "badge": "Notre Équipe",
     "title": "Rencontrez Notre Équipe",
     "subtitle": "Les individus passionnés derrière ReEarthly",
+    "joinBadge": "Rejoignez Notre Équipe",
     "members": [
       {
         "name": "Vahid Sheikhi",

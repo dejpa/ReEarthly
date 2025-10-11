@@ -17,7 +17,7 @@ export default function OurMission() {
         {/* Modern Header */}
         <div className="text-center mb-20">
           <div className="inline-flex items-center px-4 py-2 rounded-full bg-gradient-to-r from-blue-500/10 to-emerald-500/10 border border-blue-200/20 backdrop-blur-sm mb-6">
-            <span className="text-sm font-medium text-blue-700">🎯 Our Mission</span>
+            <span className="text-sm font-medium text-blue-700">🎯 {t('about.mission.badge')}</span>
           </div>
           <h2 className="text-4xl sm:text-5xl lg:text-6xl font-black leading-tight mb-6">
             <span className="bg-gradient-to-r from-slate-900 via-blue-800 to-emerald-800 bg-clip-text text-transparent">
