@@ -1,0 +1,763 @@
+{
+  "hero": {
+    "badge": "Innovative Solutions",
+    "title": "Environmental Solutions",
+    "titleHighlight": "for a Sustainable Future",
+    "description": "Discover cutting-edge technologies and proven strategies to tackle environmental challenges and create lasting positive impact for our planet.",
+    "primaryCTA": "Explore Solutions",
+    "secondaryCTA": "See Case Studies",
+    "stats": [
+      {
+        "value": "500+",
+        "label": "Solutions Deployed"
+      },
+      {
+        "value": "85%",
+        "label": "Carbon Reduction"
+      },
+      {
+        "value": "200+",
+        "label": "Partner Organizations"
+      }
+    ]
+  },
+  "categories": {
+    "badge": "Our Solutions",
+    "title": "Comprehensive Environmental Solutions",
+    "subtitle": "Tailored approaches for every environmental challenge",
+    "learnMore": "Learn More",
+    "items": [
+      {
+        "icon": "🌍",
+        "title": "Carbon Management",
+        "description": "Advanced solutions for measuring, reducing, and offsetting carbon emissions across your entire operation.",
+        "features": [
+          "Real-time carbon footprint tracking",
+          "AI-powered reduction recommendations",
+          "Verified carbon offset programs"
+        ]
+      },
+      {
+        "icon": "♻️",
+        "title": "Circular Economy",
+        "description": "Transform waste into resources with our comprehensive circular economy strategies and technologies.",
+        "features": [
+          "Waste stream analysis and optimization",
+          "Material recovery programs",
+          "Circular supply chain design"
+        ]
+      },
+      {
+        "icon": "💧",
+        "title": "Water Conservation",
+        "description": "Innovative water management solutions to reduce consumption and improve water quality.",
+        "features": [
+          "Smart water monitoring systems",
+          "Water recycling technologies",
+          "Watershed restoration programs"
+        ]
+      },
+      {
+        "icon": "🌱",
+        "title": "Ecosystem Restoration",
+        "description": "Science-based approaches to restore and protect natural ecosystems and biodiversity.",
+        "features": [
+          "Reforestation and afforestation",
+          "Habitat restoration",
+          "Biodiversity monitoring"
+        ]
+      }
+    ]
+  },
+  "features": {
+    "badge": "Key Features",
+    "title": "Why Choose Our Solutions",
+    "subtitle": "Proven technology backed by scientific research and real-world results",
+    "ctaText": "Want to see how these features can work for your organization?",
+    "ctaButton": "Request a Demo",
+    "items": [
+      {
+        "icon": "📊",
+        "title": "Data-Driven Insights",
+        "description": "Make informed decisions with comprehensive analytics and real-time environmental data tracking."
+      },
+      {
+        "icon": "🤖",
+        "title": "AI-Powered Optimization",
+        "description": "Leverage artificial intelligence to identify opportunities and optimize your environmental impact."
+      },
+      {
+        "icon": "🔗",
+        "title": "Seamless Integration",
+        "description": "Easy integration with existing systems and workflows for minimal disruption to operations."
+      },
+      {
+        "icon": "🏆",
+        "title": "Certified & Verified",
+        "description": "All our solutions meet international environmental standards and certification requirements."
+      },
+      {
+        "icon": "📱",
+        "title": "Mobile & Cloud Access",
+        "description": "Access your environmental data and controls anywhere, anytime with our cloud platform."
+      },
+      {
+        "icon": "🔒",
+        "title": "Secure & Compliant",
+        "description": "Enterprise-grade security with full compliance to environmental regulations and data protection laws."
+      }
+    ]
+  },
+  "impact": {
+    "badge": "Measurable Impact",
+    "title": "Real Results, Real Impact",
+    "subtitle": "Our solutions deliver tangible environmental and business benefits",
+    "challengeLabel": "Challenge",
+    "solutionLabel": "Solution",
+    "resultsLabel": "Results",
+    "caseStudiesTitle": "Success Stories",
+    "stats": [
+      {
+        "icon": "🌍",
+        "value": "2.5M",
+        "label": "Tons CO₂ Reduced"
+      },
+      {
+        "icon": "💧",
+        "value": "1.2B",
+        "label": "Liters Water Saved"
+      },
+      {
+        "icon": "🌳",
+        "value": "500K",
+        "label": "Trees Planted"
+      },
+      {
+        "icon": "♻️",
+        "value": "95%",
+        "label": "Waste Diverted"
+      }
+    ],
+    "caseStudies": [
+      {
+        "company": "Global Manufacturing Corp",
+        "icon": "🏭",
+        "industry": "Manufacturing",
+        "challenge": "High energy consumption and carbon emissions across 50+ facilities worldwide, with no unified tracking system.",
+        "solution": "Implemented our AI-powered carbon management platform with real-time monitoring and optimization recommendations.",
+        "results": [
+          {
+            "value": "45%",
+            "label": "Carbon Reduction"
+          },
+          {
+            "value": "$2.3M",
+            "label": "Cost Savings"
+          }
+        ]
+      },
+      {
+        "company": "Tech Innovations Inc",
+        "icon": "💻",
+        "industry": "Technology",
+        "challenge": "Electronic waste management and achieving carbon neutrality for data centers and office operations.",
+        "solution": "Deployed circular economy strategies and renewable energy solutions across all facilities.",
+        "results": [
+          {
+            "value": "100%",
+            "label": "Carbon Neutral"
+          },
+          {
+            "value": "80%",
+            "label": "Waste Recycled"
+          }
+        ]
+      }
+    ]
+  },
+  "cta": {
+    "badge": "Get Started",
+    "title": "Ready to Transform Your Environmental Impact?",
+    "description": "Join hundreds of organizations already making a difference with our proven solutions. Start your sustainability journey today.",
+    "primaryButton": "Start Free Trial",
+    "secondaryButton": "Talk to an Expert",
+    "trustText": "Trusted by leading organizations worldwide",
+    "partners": [
+      "Fortune 500",
+      "Government Agencies",
+      "NGOs",
+      "Universities",
+      "Startups"
+    ],
+    "benefits": [
+      {
+        "icon": "⚡",
+        "title": "Quick Setup",
+        "description": "Get started in minutes, not months"
+      },
+      {
+        "icon": "💰",
+        "title": "ROI Guaranteed",
+        "description": "See measurable results within 90 days"
+      },
+      {
+        "icon": "🤝",
+        "title": "Expert Support",
+        "description": "24/7 support from sustainability experts"
+      }
+    ]
+  },
+  "carbonManagement": {
+    "breadcrumb": {
+      "home": "Home",
+      "solutions": "Solutions",
+      "current": "Carbon Management"
+    },
+    "hero": {
+      "badge": "Carbon Solutions",
+      "title": "Carbon Management",
+      "description": "Comprehensive carbon management solutions to measure, reduce, and offset your carbon footprint with AI-powered insights and verified offset programs.",
+      "primaryCTA": "Get Started",
+      "secondaryCTA": "Schedule Demo"
+    },
+    "features": {
+      "title": "Comprehensive Carbon Management",
+      "subtitle": "All the tools you need to manage your carbon footprint effectively",
+      "items": [
+        {
+          "icon": "📊",
+          "title": "Real-Time Monitoring",
+          "description": "Track your carbon emissions in real-time across all operations with our advanced monitoring system."
+        },
+        {
+          "icon": "🤖",
+          "title": "AI-Powered Analytics",
+          "description": "Get intelligent insights and recommendations powered by machine learning algorithms."
+        },
+        {
+          "icon": "📈",
+          "title": "Carbon Accounting",
+          "description": "Automated carbon accounting compliant with GHG Protocol and ISO 14064 standards."
+        },
+        {
+          "icon": "🎯",
+          "title": "Target Setting",
+          "description": "Set science-based targets aligned with Paris Agreement and net-zero commitments."
+        },
+        {
+          "icon": "✅",
+          "title": "Verified Offsets",
+          "description": "Access to high-quality, verified carbon offset projects globally."
+        },
+        {
+          "icon": "📱",
+          "title": "Mobile Dashboard",
+          "description": "Monitor and manage your carbon footprint from anywhere with our mobile app."
+        }
+      ]
+    },
+    "process": {
+      "title": "Our Carbon Management Process",
+      "subtitle": "A systematic approach to carbon neutrality",
+      "steps": [
+        {
+          "title": "Measure & Assess",
+          "description": "We start by conducting a comprehensive carbon footprint assessment across all your operations, including Scope 1, 2, and 3 emissions.",
+          "bullets": [
+            "Automated data collection from multiple sources",
+            "Comprehensive emissions inventory",
+            "Baseline establishment and benchmarking"
+          ]
+        },
+        {
+          "title": "Analyze & Plan",
+          "description": "Our AI analyzes your emissions data to identify reduction opportunities and create a customized decarbonization roadmap.",
+          "bullets": [
+            "Identification of emission hotspots",
+            "Cost-benefit analysis of reduction strategies",
+            "Science-based target setting"
+          ]
+        },
+        {
+          "title": "Reduce & Optimize",
+          "description": "Implement targeted reduction strategies with ongoing monitoring and optimization of your carbon management initiatives.",
+          "bullets": [
+            "Energy efficiency improvements",
+            "Renewable energy transition planning",
+            "Supply chain optimization"
+          ]
+        },
+        {
+          "title": "Offset & Report",
+          "description": "Compensate remaining emissions through verified offset projects and generate comprehensive sustainability reports.",
+          "bullets": [
+            "Access to verified carbon offset projects",
+            "Automated reporting and compliance",
+            "Transparent impact tracking"
+          ]
+        }
+      ]
+    },
+    "benefits": {
+      "title": "Key Benefits",
+      "subtitle": "Transform your carbon management strategy",
+      "items": [
+        {
+          "icon": "💰",
+          "title": "Cost Savings",
+          "description": "Reduce energy costs and operational expenses through efficient carbon management and energy optimization."
+        },
+        {
+          "icon": "🏆",
+          "title": "Regulatory Compliance",
+          "description": "Stay ahead of carbon regulations and meet reporting requirements with automated compliance tools."
+        },
+        {
+          "icon": "🌟",
+          "title": "Brand Value",
+          "description": "Enhance your brand reputation and meet stakeholder expectations with transparent carbon management."
+        },
+        {
+          "icon": "📊",
+          "title": "Data-Driven Decisions",
+          "description": "Make informed decisions based on accurate, real-time carbon data and predictive analytics."
+        }
+      ],
+      "stats": [
+        {
+          "value": "45%",
+          "label": "Average Reduction"
+        },
+        {
+          "value": "$2.5M",
+          "label": "Annual Savings"
+        },
+        {
+          "value": "100%",
+          "label": "Compliance Rate"
+        }
+      ]
+    },
+    "cta": {
+      "title": "Ready to Take Control of Your Carbon Footprint?",
+      "description": "Join leading organizations in the fight against climate change. Start your carbon management journey today.",
+      "primaryButton": "Start Free Trial",
+      "secondaryButton": "Contact Sales"
+    }
+  },
+  "circularEconomy": {
+    "breadcrumb": {
+      "home": "Home",
+      "solutions": "Solutions",
+      "current": "Circular Economy"
+    },
+    "hero": {
+      "badge": "Circular Solutions",
+      "title": "Circular Economy",
+      "description": "Transform waste into resources with our comprehensive circular economy strategies that reduce waste, recover materials, and create sustainable value chains.",
+      "primaryCTA": "Get Started",
+      "secondaryCTA": "Schedule Demo"
+    },
+    "features": {
+      "title": "Circular Economy Solutions",
+      "subtitle": "Close the loop and create sustainable value from waste",
+      "items": [
+        {
+          "icon": "♻️",
+          "title": "Waste Stream Analysis",
+          "description": "Comprehensive analysis of waste streams to identify opportunities for reduction and recovery."
+        },
+        {
+          "icon": "🔄",
+          "title": "Material Recovery",
+          "description": "Advanced technologies and processes to recover valuable materials from waste streams."
+        },
+        {
+          "icon": "🏭",
+          "title": "Industrial Symbiosis",
+          "description": "Connect with other businesses to exchange by-products and create circular value chains."
+        },
+        {
+          "icon": "📦",
+          "title": "Sustainable Packaging",
+          "description": "Design and implement sustainable packaging solutions that minimize waste."
+        },
+        {
+          "icon": "🔧",
+          "title": "Product Design",
+          "description": "Design products for durability, reuse, and recyclability from the start."
+        },
+        {
+          "icon": "🌐",
+          "title": "Supply Chain Circularity",
+          "description": "Build circular supply chains that minimize waste and maximize resource efficiency."
+        }
+      ]
+    },
+    "process": {
+      "title": "Our Circular Economy Approach",
+      "subtitle": "From linear to circular operations",
+      "steps": [
+        {
+          "title": "Assess & Map",
+          "description": "We map your entire value chain to identify opportunities for circular strategies and quantify potential impacts.",
+          "bullets": [
+            "Material flow analysis",
+            "Waste stream characterization",
+            "Circular opportunity identification"
+          ]
+        },
+        {
+          "title": "Design & Develop",
+          "description": "Develop circular business models and design strategies tailored to your operations and industry.",
+          "bullets": [
+            "Circular business model design",
+            "Product redesign for circularity",
+            "Partnership and collaboration planning"
+          ]
+        },
+        {
+          "title": "Implement & Scale",
+          "description": "Roll out circular economy initiatives with pilot programs before scaling across operations.",
+          "bullets": [
+            "Pilot program implementation",
+            "Process optimization",
+            "Technology integration"
+          ]
+        },
+        {
+          "title": "Monitor & Improve",
+          "description": "Continuously monitor performance and optimize circular economy strategies for maximum impact.",
+          "bullets": [
+            "Performance tracking and KPIs",
+            "Impact measurement",
+            "Continuous improvement programs"
+          ]
+        }
+      ]
+    },
+    "benefits": {
+      "title": "Circular Economy Benefits",
+      "subtitle": "Create value while reducing environmental impact",
+      "items": [
+        {
+          "icon": "💵",
+          "title": "Revenue Generation",
+          "description": "Create new revenue streams by turning waste into valuable resources and products."
+        },
+        {
+          "icon": "🎯",
+          "title": "Resource Security",
+          "description": "Reduce dependence on virgin materials and protect against supply chain disruptions."
+        },
+        {
+          "icon": "🌱",
+          "title": "Environmental Impact",
+          "description": "Significantly reduce environmental footprint through waste reduction and resource efficiency."
+        },
+        {
+          "icon": "🚀",
+          "title": "Innovation Driver",
+          "description": "Foster innovation and differentiate your business with circular products and services."
+        }
+      ],
+      "stats": [
+        {
+          "value": "90%",
+          "label": "Waste Reduction"
+        },
+        {
+          "value": "$5M",
+          "label": "New Revenue"
+        },
+        {
+          "value": "65%",
+          "label": "Material Savings"
+        }
+      ]
+    },
+    "cta": {
+      "title": "Ready to Close the Loop?",
+      "description": "Transform your business with circular economy strategies that create value and protect the environment.",
+      "primaryButton": "Start Free Trial",
+      "secondaryButton": "Contact Sales"
+    }
+  },
+  "waterConservation": {
+    "breadcrumb": {
+      "home": "Home",
+      "solutions": "Solutions",
+      "current": "Water Conservation"
+    },
+    "hero": {
+      "badge": "Water Solutions",
+      "title": "Water Conservation",
+      "description": "Innovative water management solutions to reduce consumption, improve water quality, and protect this vital resource for future generations.",
+      "primaryCTA": "Get Started",
+      "secondaryCTA": "Schedule Demo"
+    },
+    "features": {
+      "title": "Water Conservation Technologies",
+      "subtitle": "Smart solutions for sustainable water management",
+      "items": [
+        {
+          "icon": "💧",
+          "title": "Smart Monitoring",
+          "description": "Real-time water usage monitoring with IoT sensors and advanced analytics."
+        },
+        {
+          "icon": "🔍",
+          "title": "Leak Detection",
+          "description": "AI-powered leak detection and prevention systems to minimize water loss."
+        },
+        {
+          "icon": "♻️",
+          "title": "Water Recycling",
+          "description": "Advanced water recycling and reuse technologies for non-potable applications."
+        },
+        {
+          "icon": "🏭",
+          "title": "Treatment Systems",
+          "description": "State-of-the-art water treatment and purification systems."
+        },
+        {
+          "icon": "🌊",
+          "title": "Watershed Management",
+          "description": "Comprehensive watershed protection and restoration programs."
+        },
+        {
+          "icon": "📊",
+          "title": "Water Accounting",
+          "description": "Detailed water accounting and reporting aligned with global standards."
+        }
+      ]
+    },
+    "process": {
+      "title": "Our Water Conservation Process",
+      "subtitle": "Systematic approach to water stewardship",
+      "steps": [
+        {
+          "title": "Audit & Baseline",
+          "description": "Conduct comprehensive water audits to establish baseline consumption and identify conservation opportunities.",
+          "bullets": [
+            "Water usage assessment across operations",
+            "Quality testing and analysis",
+            "Baseline establishment"
+          ]
+        },
+        {
+          "title": "Strategy Development",
+          "description": "Develop customized water conservation strategies based on your operations and local conditions.",
+          "bullets": [
+            "Conservation opportunity identification",
+            "Technology selection and planning",
+            "ROI analysis and business case"
+          ]
+        },
+        {
+          "title": "Implementation",
+          "description": "Install water-efficient technologies and implement conservation practices across your operations.",
+          "bullets": [
+            "Technology deployment",
+            "Process optimization",
+            "Staff training and engagement"
+          ]
+        },
+        {
+          "title": "Monitor & Optimize",
+          "description": "Continuously monitor water usage and optimize conservation strategies for maximum impact.",
+          "bullets": [
+            "Real-time monitoring and alerts",
+            "Performance optimization",
+            "Impact reporting"
+          ]
+        }
+      ]
+    },
+    "benefits": {
+      "title": "Water Conservation Benefits",
+      "subtitle": "Protect water resources while reducing costs",
+      "items": [
+        {
+          "icon": "💰",
+          "title": "Cost Reduction",
+          "description": "Significantly reduce water and wastewater costs through efficient management."
+        },
+        {
+          "icon": "🌍",
+          "title": "Environmental Stewardship",
+          "description": "Protect local water resources and ecosystems while meeting sustainability goals."
+        },
+        {
+          "icon": "🏆",
+          "title": "Risk Mitigation",
+          "description": "Reduce water-related risks including scarcity, regulatory, and reputational risks."
+        },
+        {
+          "icon": "✨",
+          "title": "Operational Resilience",
+          "description": "Ensure business continuity with reliable water management systems."
+        }
+      ],
+      "stats": [
+        {
+          "value": "50%",
+          "label": "Water Savings"
+        },
+        {
+          "value": "$1.8M",
+          "label": "Annual Savings"
+        },
+        {
+          "value": "85%",
+          "label": "Recycling Rate"
+        }
+      ]
+    },
+    "cta": {
+      "title": "Ready to Transform Your Water Management?",
+      "description": "Protect water resources and reduce costs with our innovative water conservation solutions.",
+      "primaryButton": "Start Free Trial",
+      "secondaryButton": "Contact Sales"
+    }
+  },
+  "ecosystemRestoration": {
+    "breadcrumb": {
+      "home": "Home",
+      "solutions": "Solutions",
+      "current": "Ecosystem Restoration"
+    },
+    "hero": {
+      "badge": "Restoration Solutions",
+      "title": "Ecosystem Restoration",
+      "description": "Science-based approaches to restore and protect natural ecosystems, enhance biodiversity, and create lasting environmental impact.",
+      "primaryCTA": "Get Started",
+      "secondaryCTA": "Schedule Demo"
+    },
+    "features": {
+      "title": "Ecosystem Restoration Solutions",
+      "subtitle": "Restore nature and enhance biodiversity",
+      "items": [
+        {
+          "icon": "🌳",
+          "title": "Reforestation",
+          "description": "Large-scale reforestation and afforestation programs with native species."
+        },
+        {
+          "icon": "🦋",
+          "title": "Habitat Restoration",
+          "description": "Restore degraded habitats to support biodiversity and ecosystem services."
+        },
+        {
+          "icon": "🔬",
+          "title": "Biodiversity Monitoring",
+          "description": "Advanced monitoring and assessment of ecosystem health and biodiversity."
+        },
+        {
+          "icon": "🌾",
+          "title": "Soil Restoration",
+          "description": "Regenerative practices to restore soil health and carbon sequestration."
+        },
+        {
+          "icon": "💧",
+          "title": "Wetland Restoration",
+          "description": "Restore and protect critical wetland ecosystems and their services."
+        },
+        {
+          "icon": "🌐",
+          "title": "Landscape Planning",
+          "description": "Integrated landscape planning for sustainable land use and conservation."
+        }
+      ]
+    },
+    "process": {
+      "title": "Our Restoration Approach",
+      "subtitle": "Science-based ecosystem restoration",
+      "steps": [
+        {
+          "title": "Assess & Plan",
+          "description": "Conduct ecological assessments to understand ecosystem conditions and develop science-based restoration plans.",
+          "bullets": [
+            "Ecological baseline surveys",
+            "Stakeholder engagement",
+            "Restoration goal setting"
+          ]
+        },
+        {
+          "title": "Design & Prepare",
+          "description": "Design detailed restoration interventions and prepare sites for implementation.",
+          "bullets": [
+            "Species selection and sourcing",
+            "Site preparation",
+            "Community mobilization"
+          ]
+        },
+        {
+          "title": "Implement & Plant",
+          "description": "Execute restoration activities including planting, habitat creation, and invasive species management.",
+          "bullets": [
+            "Native species planting",
+            "Habitat structure creation",
+            "Initial maintenance"
+          ]
+        },
+        {
+          "title": "Monitor & Maintain",
+          "description": "Long-term monitoring and adaptive management to ensure restoration success.",
+          "bullets": [
+            "Biodiversity monitoring",
+            "Adaptive management",
+            "Impact verification"
+          ]
+        }
+      ]
+    },
+    "benefits": {
+      "title": "Restoration Benefits",
+      "subtitle": "Create lasting environmental and social impact",
+      "items": [
+        {
+          "icon": "🌱",
+          "title": "Carbon Sequestration",
+          "description": "Restore ecosystems that capture and store significant amounts of carbon."
+        },
+        {
+          "icon": "🦜",
+          "title": "Biodiversity Enhancement",
+          "description": "Support and enhance local and regional biodiversity conservation efforts."
+        },
+        {
+          "icon": "💧",
+          "title": "Ecosystem Services",
+          "description": "Restore critical ecosystem services including water filtration and flood control."
+        },
+        {
+          "icon": "👥",
+          "title": "Community Benefits",
+          "description": "Create local employment and provide community co-benefits through restoration."
+        }
+      ],
+      "stats": [
+        {
+          "value": "500K",
+          "label": "Trees Planted"
+        },
+        {
+          "value": "10K",
+          "label": "Hectares Restored"
+        },
+        {
+          "value": "250+",
+          "label": "Species Protected"
+        }
+      ]
+    },
+    "cta": {
+      "title": "Ready to Restore Nature?",
+      "description": "Partner with us to restore ecosystems and create lasting environmental impact.",
+      "primaryButton": "Start Free Trial",
+      "secondaryButton": "Contact Sales"
+    }
+  }
+}
+

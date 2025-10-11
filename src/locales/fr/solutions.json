@@ -1,0 +1,763 @@
+{
+  "hero": {
+    "badge": "Solutions Innovantes",
+    "title": "Solutions Environnementales",
+    "titleHighlight": "pour un Avenir Durable",
+    "description": "Découvrez des technologies de pointe et des stratégies éprouvées pour relever les défis environnementaux et créer un impact positif durable pour notre planète.",
+    "primaryCTA": "Explorer les Solutions",
+    "secondaryCTA": "Voir les Études de Cas",
+    "stats": [
+      {
+        "value": "500+",
+        "label": "Solutions Déployées"
+      },
+      {
+        "value": "85%",
+        "label": "Réduction Carbone"
+      },
+      {
+        "value": "200+",
+        "label": "Organisations Partenaires"
+      }
+    ]
+  },
+  "categories": {
+    "badge": "Nos Solutions",
+    "title": "Solutions Environnementales Complètes",
+    "subtitle": "Des approches adaptées à chaque défi environnemental",
+    "learnMore": "En Savoir Plus",
+    "items": [
+      {
+        "icon": "🌍",
+        "title": "Gestion du Carbone",
+        "description": "Solutions avancées pour mesurer, réduire et compenser les émissions de carbone dans l'ensemble de vos opérations.",
+        "features": [
+          "Suivi en temps réel de l'empreinte carbone",
+          "Recommandations de réduction alimentées par IA",
+          "Programmes de compensation carbone vérifiés"
+        ]
+      },
+      {
+        "icon": "♻️",
+        "title": "Économie Circulaire",
+        "description": "Transformez les déchets en ressources grâce à nos stratégies et technologies d'économie circulaire complètes.",
+        "features": [
+          "Analyse et optimisation des flux de déchets",
+          "Programmes de récupération des matériaux",
+          "Conception de chaînes d'approvisionnement circulaires"
+        ]
+      },
+      {
+        "icon": "💧",
+        "title": "Conservation de l'Eau",
+        "description": "Solutions innovantes de gestion de l'eau pour réduire la consommation et améliorer la qualité de l'eau.",
+        "features": [
+          "Systèmes intelligents de surveillance de l'eau",
+          "Technologies de recyclage de l'eau",
+          "Programmes de restauration des bassins versants"
+        ]
+      },
+      {
+        "icon": "🌱",
+        "title": "Restauration des Écosystèmes",
+        "description": "Approches scientifiques pour restaurer et protéger les écosystèmes naturels et la biodiversité.",
+        "features": [
+          "Reforestation et afforestation",
+          "Restauration des habitats",
+          "Surveillance de la biodiversité"
+        ]
+      }
+    ]
+  },
+  "features": {
+    "badge": "Caractéristiques Clés",
+    "title": "Pourquoi Choisir Nos Solutions",
+    "subtitle": "Technologie éprouvée soutenue par la recherche scientifique et des résultats concrets",
+    "ctaText": "Vous voulez voir comment ces fonctionnalités peuvent fonctionner pour votre organisation?",
+    "ctaButton": "Demander une Démo",
+    "items": [
+      {
+        "icon": "📊",
+        "title": "Analyses Basées sur les Données",
+        "description": "Prenez des décisions éclairées avec des analyses complètes et le suivi des données environnementales en temps réel."
+      },
+      {
+        "icon": "🤖",
+        "title": "Optimisation Alimentée par IA",
+        "description": "Exploitez l'intelligence artificielle pour identifier les opportunités et optimiser votre impact environnemental."
+      },
+      {
+        "icon": "🔗",
+        "title": "Intégration Transparente",
+        "description": "Intégration facile avec les systèmes et flux de travail existants pour une perturbation minimale des opérations."
+      },
+      {
+        "icon": "🏆",
+        "title": "Certifié et Vérifié",
+        "description": "Toutes nos solutions répondent aux normes environnementales internationales et aux exigences de certification."
+      },
+      {
+        "icon": "📱",
+        "title": "Accès Mobile et Cloud",
+        "description": "Accédez à vos données et contrôles environnementaux partout, à tout moment avec notre plateforme cloud."
+      },
+      {
+        "icon": "🔒",
+        "title": "Sécurisé et Conforme",
+        "description": "Sécurité de niveau entreprise avec conformité totale aux réglementations environnementales et aux lois sur la protection des données."
+      }
+    ]
+  },
+  "impact": {
+    "badge": "Impact Mesurable",
+    "title": "Résultats Réels, Impact Réel",
+    "subtitle": "Nos solutions offrent des avantages environnementaux et commerciaux tangibles",
+    "challengeLabel": "Défi",
+    "solutionLabel": "Solution",
+    "resultsLabel": "Résultats",
+    "caseStudiesTitle": "Histoires de Réussite",
+    "stats": [
+      {
+        "icon": "🌍",
+        "value": "2.5M",
+        "label": "Tonnes CO₂ Réduites"
+      },
+      {
+        "icon": "💧",
+        "value": "1.2Md",
+        "label": "Litres d'Eau Économisés"
+      },
+      {
+        "icon": "🌳",
+        "value": "500K",
+        "label": "Arbres Plantés"
+      },
+      {
+        "icon": "♻️",
+        "value": "95%",
+        "label": "Déchets Détournés"
+      }
+    ],
+    "caseStudies": [
+      {
+        "company": "Global Manufacturing Corp",
+        "icon": "🏭",
+        "industry": "Fabrication",
+        "challenge": "Consommation d'énergie élevée et émissions de carbone dans plus de 50 installations dans le monde, sans système de suivi unifié.",
+        "solution": "Mise en œuvre de notre plateforme de gestion du carbone alimentée par IA avec surveillance en temps réel et recommandations d'optimisation.",
+        "results": [
+          {
+            "value": "45%",
+            "label": "Réduction Carbone"
+          },
+          {
+            "value": "2.3M$",
+            "label": "Économies de Coûts"
+          }
+        ]
+      },
+      {
+        "company": "Tech Innovations Inc",
+        "icon": "💻",
+        "industry": "Technologie",
+        "challenge": "Gestion des déchets électroniques et atteinte de la neutralité carbone pour les centres de données et les opérations de bureau.",
+        "solution": "Déploiement de stratégies d'économie circulaire et de solutions d'énergie renouvelable dans toutes les installations.",
+        "results": [
+          {
+            "value": "100%",
+            "label": "Carbone Neutre"
+          },
+          {
+            "value": "80%",
+            "label": "Déchets Recyclés"
+          }
+        ]
+      }
+    ]
+  },
+  "cta": {
+    "badge": "Commencer",
+    "title": "Prêt à Transformer Votre Impact Environnemental?",
+    "description": "Rejoignez des centaines d'organisations qui font déjà la différence avec nos solutions éprouvées. Commencez votre parcours de durabilité aujourd'hui.",
+    "primaryButton": "Essai Gratuit",
+    "secondaryButton": "Parler à un Expert",
+    "trustText": "Approuvé par les principales organisations du monde entier",
+    "partners": [
+      "Fortune 500",
+      "Agences Gouvernementales",
+      "ONG",
+      "Universités",
+      "Startups"
+    ],
+    "benefits": [
+      {
+        "icon": "⚡",
+        "title": "Configuration Rapide",
+        "description": "Démarrez en quelques minutes, pas en mois"
+      },
+      {
+        "icon": "💰",
+        "title": "ROI Garanti",
+        "description": "Voyez des résultats mesurables en 90 jours"
+      },
+      {
+        "icon": "🤝",
+        "title": "Support Expert",
+        "description": "Support 24/7 d'experts en durabilité"
+      }
+    ]
+  },
+  "carbonManagement": {
+    "breadcrumb": {
+      "home": "Accueil",
+      "solutions": "Solutions",
+      "current": "Gestion du Carbone"
+    },
+    "hero": {
+      "badge": "Solutions Carbone",
+      "title": "Gestion du Carbone",
+      "description": "Solutions complètes de gestion du carbone pour mesurer, réduire et compenser votre empreinte carbone avec des informations alimentées par IA et des programmes de compensation vérifiés.",
+      "primaryCTA": "Commencer",
+      "secondaryCTA": "Planifier une Démo"
+    },
+    "features": {
+      "title": "Gestion Complète du Carbone",
+      "subtitle": "Tous les outils dont vous avez besoin pour gérer efficacement votre empreinte carbone",
+      "items": [
+        {
+          "icon": "📊",
+          "title": "Surveillance en Temps Réel",
+          "description": "Suivez vos émissions de carbone en temps réel dans toutes les opérations avec notre système de surveillance avancé."
+        },
+        {
+          "icon": "🤖",
+          "title": "Analyses Alimentées par IA",
+          "description": "Obtenez des informations intelligentes et des recommandations alimentées par des algorithmes d'apprentissage automatique."
+        },
+        {
+          "icon": "📈",
+          "title": "Comptabilité Carbone",
+          "description": "Comptabilité carbone automatisée conforme au protocole GES et aux normes ISO 14064."
+        },
+        {
+          "icon": "🎯",
+          "title": "Définition d'Objectifs",
+          "description": "Définissez des objectifs scientifiques alignés sur l'Accord de Paris et les engagements zéro émission."
+        },
+        {
+          "icon": "✅",
+          "title": "Compensations Vérifiées",
+          "description": "Accès à des projets de compensation carbone de haute qualité et vérifiés à l'échelle mondiale."
+        },
+        {
+          "icon": "📱",
+          "title": "Tableau de Bord Mobile",
+          "description": "Surveillez et gérez votre empreinte carbone de n'importe où avec notre application mobile."
+        }
+      ]
+    },
+    "process": {
+      "title": "Notre Processus de Gestion du Carbone",
+      "subtitle": "Une approche systématique vers la neutralité carbone",
+      "steps": [
+        {
+          "title": "Mesurer et Évaluer",
+          "description": "Nous commençons par réaliser une évaluation complète de l'empreinte carbone dans toutes vos opérations, y compris les émissions de Scope 1, 2 et 3.",
+          "bullets": [
+            "Collecte automatisée de données provenant de plusieurs sources",
+            "Inventaire complet des émissions",
+            "Établissement de la base de référence et benchmarking"
+          ]
+        },
+        {
+          "title": "Analyser et Planifier",
+          "description": "Notre IA analyse vos données d'émissions pour identifier les opportunités de réduction et créer une feuille de route de décarbonisation personnalisée.",
+          "bullets": [
+            "Identification des points chauds d'émission",
+            "Analyse coûts-avantages des stratégies de réduction",
+            "Définition d'objectifs scientifiques"
+          ]
+        },
+        {
+          "title": "Réduire et Optimiser",
+          "description": "Mettez en œuvre des stratégies de réduction ciblées avec une surveillance et une optimisation continues de vos initiatives de gestion du carbone.",
+          "bullets": [
+            "Améliorations de l'efficacité énergétique",
+            "Planification de la transition vers les énergies renouvelables",
+            "Optimisation de la chaîne d'approvisionnement"
+          ]
+        },
+        {
+          "title": "Compenser et Rapporter",
+          "description": "Compensez les émissions restantes par des projets de compensation vérifiés et générez des rapports de durabilité complets.",
+          "bullets": [
+            "Accès à des projets de compensation carbone vérifiés",
+            "Rapports et conformité automatisés",
+            "Suivi transparent de l'impact"
+          ]
+        }
+      ]
+    },
+    "benefits": {
+      "title": "Principaux Avantages",
+      "subtitle": "Transformez votre stratégie de gestion du carbone",
+      "items": [
+        {
+          "icon": "💰",
+          "title": "Économies de Coûts",
+          "description": "Réduisez les coûts énergétiques et les dépenses opérationnelles grâce à une gestion efficace du carbone et à l'optimisation énergétique."
+        },
+        {
+          "icon": "🏆",
+          "title": "Conformité Réglementaire",
+          "description": "Gardez une longueur d'avance sur les réglementations carbone et respectez les exigences de reporting avec des outils de conformité automatisés."
+        },
+        {
+          "icon": "🌟",
+          "title": "Valeur de Marque",
+          "description": "Améliorez la réputation de votre marque et répondez aux attentes des parties prenantes avec une gestion transparente du carbone."
+        },
+        {
+          "icon": "📊",
+          "title": "Décisions Basées sur les Données",
+          "description": "Prenez des décisions éclairées basées sur des données carbone précises en temps réel et des analyses prédictives."
+        }
+      ],
+      "stats": [
+        {
+          "value": "45%",
+          "label": "Réduction Moyenne"
+        },
+        {
+          "value": "2.5M$",
+          "label": "Économies Annuelles"
+        },
+        {
+          "value": "100%",
+          "label": "Taux de Conformité"
+        }
+      ]
+    },
+    "cta": {
+      "title": "Prêt à Prendre le Contrôle de Votre Empreinte Carbone?",
+      "description": "Rejoignez les principales organisations dans la lutte contre le changement climatique. Commencez votre parcours de gestion du carbone aujourd'hui.",
+      "primaryButton": "Essai Gratuit",
+      "secondaryButton": "Contacter les Ventes"
+    }
+  },
+  "circularEconomy": {
+    "breadcrumb": {
+      "home": "Accueil",
+      "solutions": "Solutions",
+      "current": "Économie Circulaire"
+    },
+    "hero": {
+      "badge": "Solutions Circulaires",
+      "title": "Économie Circulaire",
+      "description": "Transformez les déchets en ressources avec nos stratégies complètes d'économie circulaire qui réduisent les déchets, récupèrent les matériaux et créent des chaînes de valeur durables.",
+      "primaryCTA": "Commencer",
+      "secondaryCTA": "Planifier une Démo"
+    },
+    "features": {
+      "title": "Solutions d'Économie Circulaire",
+      "subtitle": "Fermez la boucle et créez de la valeur durable à partir des déchets",
+      "items": [
+        {
+          "icon": "♻️",
+          "title": "Analyse des Flux de Déchets",
+          "description": "Analyse complète des flux de déchets pour identifier les opportunités de réduction et de récupération."
+        },
+        {
+          "icon": "🔄",
+          "title": "Récupération de Matériaux",
+          "description": "Technologies et processus avancés pour récupérer les matériaux précieux des flux de déchets."
+        },
+        {
+          "icon": "🏭",
+          "title": "Symbiose Industrielle",
+          "description": "Connectez-vous avec d'autres entreprises pour échanger des sous-produits et créer des chaînes de valeur circulaires."
+        },
+        {
+          "icon": "📦",
+          "title": "Emballage Durable",
+          "description": "Concevez et mettez en œuvre des solutions d'emballage durables qui minimisent les déchets."
+        },
+        {
+          "icon": "🔧",
+          "title": "Conception de Produits",
+          "description": "Concevez des produits pour la durabilité, la réutilisation et la recyclabilité dès le départ."
+        },
+        {
+          "icon": "🌐",
+          "title": "Circularité de la Chaîne d'Approvisionnement",
+          "description": "Construisez des chaînes d'approvisionnement circulaires qui minimisent les déchets et maximisent l'efficacité des ressources."
+        }
+      ]
+    },
+    "process": {
+      "title": "Notre Approche de l'Économie Circulaire",
+      "subtitle": "D'opérations linéaires à circulaires",
+      "steps": [
+        {
+          "title": "Évaluer et Cartographier",
+          "description": "Nous cartographions toute votre chaîne de valeur pour identifier les opportunités de stratégies circulaires et quantifier les impacts potentiels.",
+          "bullets": [
+            "Analyse des flux de matériaux",
+            "Caractérisation des flux de déchets",
+            "Identification d'opportunités circulaires"
+          ]
+        },
+        {
+          "title": "Concevoir et Développer",
+          "description": "Développez des modèles commerciaux circulaires et des stratégies de conception adaptées à vos opérations et à votre industrie.",
+          "bullets": [
+            "Conception de modèles commerciaux circulaires",
+            "Reconception de produits pour la circularité",
+            "Planification de partenariats et de collaboration"
+          ]
+        },
+        {
+          "title": "Mettre en Œuvre et Développer",
+          "description": "Déployez des initiatives d'économie circulaire avec des programmes pilotes avant de les étendre à toutes les opérations.",
+          "bullets": [
+            "Mise en œuvre de programmes pilotes",
+            "Optimisation des processus",
+            "Intégration technologique"
+          ]
+        },
+        {
+          "title": "Surveiller et Améliorer",
+          "description": "Surveillez en permanence les performances et optimisez les stratégies d'économie circulaire pour un impact maximal.",
+          "bullets": [
+            "Suivi des performances et KPIs",
+            "Mesure de l'impact",
+            "Programmes d'amélioration continue"
+          ]
+        }
+      ]
+    },
+    "benefits": {
+      "title": "Avantages de l'Économie Circulaire",
+      "subtitle": "Créez de la valeur tout en réduisant l'impact environnemental",
+      "items": [
+        {
+          "icon": "💵",
+          "title": "Génération de Revenus",
+          "description": "Créez de nouveaux flux de revenus en transformant les déchets en ressources et produits précieux."
+        },
+        {
+          "icon": "🎯",
+          "title": "Sécurité des Ressources",
+          "description": "Réduisez la dépendance aux matières vierges et protégez contre les perturbations de la chaîne d'approvisionnement."
+        },
+        {
+          "icon": "🌱",
+          "title": "Impact Environnemental",
+          "description": "Réduisez considérablement l'empreinte environnementale grâce à la réduction des déchets et à l'efficacité des ressources."
+        },
+        {
+          "icon": "🚀",
+          "title": "Moteur d'Innovation",
+          "description": "Favorisez l'innovation et différenciez votre entreprise avec des produits et services circulaires."
+        }
+      ],
+      "stats": [
+        {
+          "value": "90%",
+          "label": "Réduction des Déchets"
+        },
+        {
+          "value": "5M$",
+          "label": "Nouveaux Revenus"
+        },
+        {
+          "value": "65%",
+          "label": "Économies de Matériaux"
+        }
+      ]
+    },
+    "cta": {
+      "title": "Prêt à Fermer la Boucle?",
+      "description": "Transformez votre entreprise avec des stratégies d'économie circulaire qui créent de la valeur et protègent l'environnement.",
+      "primaryButton": "Essai Gratuit",
+      "secondaryButton": "Contacter les Ventes"
+    }
+  },
+  "waterConservation": {
+    "breadcrumb": {
+      "home": "Accueil",
+      "solutions": "Solutions",
+      "current": "Conservation de l'Eau"
+    },
+    "hero": {
+      "badge": "Solutions Eau",
+      "title": "Conservation de l'Eau",
+      "description": "Solutions innovantes de gestion de l'eau pour réduire la consommation, améliorer la qualité de l'eau et protéger cette ressource vitale pour les générations futures.",
+      "primaryCTA": "Commencer",
+      "secondaryCTA": "Planifier une Démo"
+    },
+    "features": {
+      "title": "Technologies de Conservation de l'Eau",
+      "subtitle": "Solutions intelligentes pour une gestion durable de l'eau",
+      "items": [
+        {
+          "icon": "💧",
+          "title": "Surveillance Intelligente",
+          "description": "Surveillance de l'utilisation de l'eau en temps réel avec capteurs IoT et analyses avancées."
+        },
+        {
+          "icon": "🔍",
+          "title": "Détection de Fuites",
+          "description": "Systèmes de détection et de prévention des fuites alimentés par IA pour minimiser les pertes d'eau."
+        },
+        {
+          "icon": "♻️",
+          "title": "Recyclage de l'Eau",
+          "description": "Technologies avancées de recyclage et de réutilisation de l'eau pour applications non potables."
+        },
+        {
+          "icon": "🏭",
+          "title": "Systèmes de Traitement",
+          "description": "Systèmes de traitement et de purification de l'eau de pointe."
+        },
+        {
+          "icon": "🌊",
+          "title": "Gestion des Bassins Versants",
+          "description": "Programmes complets de protection et de restauration des bassins versants."
+        },
+        {
+          "icon": "📊",
+          "title": "Comptabilité de l'Eau",
+          "description": "Comptabilité détaillée de l'eau et rapports alignés sur les normes mondiales."
+        }
+      ]
+    },
+    "process": {
+      "title": "Notre Processus de Conservation de l'Eau",
+      "subtitle": "Approche systématique de la gestion de l'eau",
+      "steps": [
+        {
+          "title": "Audit et Référence",
+          "description": "Réalisez des audits complets de l'eau pour établir la consommation de référence et identifier les opportunités de conservation.",
+          "bullets": [
+            "Évaluation de l'utilisation de l'eau dans les opérations",
+            "Tests et analyses de qualité",
+            "Établissement de la référence"
+          ]
+        },
+        {
+          "title": "Développement de Stratégie",
+          "description": "Développez des stratégies personnalisées de conservation de l'eau basées sur vos opérations et les conditions locales.",
+          "bullets": [
+            "Identification d'opportunités de conservation",
+            "Sélection et planification technologique",
+            "Analyse ROI et business case"
+          ]
+        },
+        {
+          "title": "Mise en Œuvre",
+          "description": "Installez des technologies efficaces en eau et mettez en œuvre des pratiques de conservation dans toutes vos opérations.",
+          "bullets": [
+            "Déploiement technologique",
+            "Optimisation des processus",
+            "Formation et engagement du personnel"
+          ]
+        },
+        {
+          "title": "Surveiller et Optimiser",
+          "description": "Surveillez en permanence l'utilisation de l'eau et optimisez les stratégies de conservation pour un impact maximal.",
+          "bullets": [
+            "Surveillance et alertes en temps réel",
+            "Optimisation des performances",
+            "Rapports d'impact"
+          ]
+        }
+      ]
+    },
+    "benefits": {
+      "title": "Avantages de la Conservation de l'Eau",
+      "subtitle": "Protégez les ressources en eau tout en réduisant les coûts",
+      "items": [
+        {
+          "icon": "💰",
+          "title": "Réduction des Coûts",
+          "description": "Réduisez considérablement les coûts d'eau et d'eaux usées grâce à une gestion efficace."
+        },
+        {
+          "icon": "🌍",
+          "title": "Gestion Environnementale",
+          "description": "Protégez les ressources en eau locales et les écosystèmes tout en atteignant les objectifs de durabilité."
+        },
+        {
+          "icon": "🏆",
+          "title": "Atténuation des Risques",
+          "description": "Réduisez les risques liés à l'eau, y compris la pénurie, les risques réglementaires et de réputation."
+        },
+        {
+          "icon": "✨",
+          "title": "Résilience Opérationnelle",
+          "description": "Assurez la continuité des activités avec des systèmes de gestion de l'eau fiables."
+        }
+      ],
+      "stats": [
+        {
+          "value": "50%",
+          "label": "Économies d'Eau"
+        },
+        {
+          "value": "1.8M$",
+          "label": "Économies Annuelles"
+        },
+        {
+          "value": "85%",
+          "label": "Taux de Recyclage"
+        }
+      ]
+    },
+    "cta": {
+      "title": "Prêt à Transformer Votre Gestion de l'Eau?",
+      "description": "Protégez les ressources en eau et réduisez les coûts avec nos solutions innovantes de conservation de l'eau.",
+      "primaryButton": "Essai Gratuit",
+      "secondaryButton": "Contacter les Ventes"
+    }
+  },
+  "ecosystemRestoration": {
+    "breadcrumb": {
+      "home": "Accueil",
+      "solutions": "Solutions",
+      "current": "Restauration des Écosystèmes"
+    },
+    "hero": {
+      "badge": "Solutions de Restauration",
+      "title": "Restauration des Écosystèmes",
+      "description": "Approches scientifiques pour restaurer et protéger les écosystèmes naturels, améliorer la biodiversité et créer un impact environnemental durable.",
+      "primaryCTA": "Commencer",
+      "secondaryCTA": "Planifier une Démo"
+    },
+    "features": {
+      "title": "Solutions de Restauration des Écosystèmes",
+      "subtitle": "Restaurer la nature et améliorer la biodiversité",
+      "items": [
+        {
+          "icon": "🌳",
+          "title": "Reforestation",
+          "description": "Programmes de reforestation et d'afforestation à grande échelle avec des espèces indigènes."
+        },
+        {
+          "icon": "🦋",
+          "title": "Restauration d'Habitat",
+          "description": "Restaurez les habitats dégradés pour soutenir la biodiversité et les services écosystémiques."
+        },
+        {
+          "icon": "🔬",
+          "title": "Surveillance de la Biodiversité",
+          "description": "Surveillance et évaluation avancées de la santé des écosystèmes et de la biodiversité."
+        },
+        {
+          "icon": "🌾",
+          "title": "Restauration des Sols",
+          "description": "Pratiques régénératives pour restaurer la santé des sols et la séquestration du carbone."
+        },
+        {
+          "icon": "💧",
+          "title": "Restauration des Zones Humides",
+          "description": "Restaurez et protégez les écosystèmes critiques des zones humides et leurs services."
+        },
+        {
+          "icon": "🌐",
+          "title": "Planification du Paysage",
+          "description": "Planification intégrée du paysage pour une utilisation durable des terres et la conservation."
+        }
+      ]
+    },
+    "process": {
+      "title": "Notre Approche de Restauration",
+      "subtitle": "Restauration des écosystèmes basée sur la science",
+      "steps": [
+        {
+          "title": "Évaluer et Planifier",
+          "description": "Réalisez des évaluations écologiques pour comprendre les conditions des écosystèmes et développer des plans de restauration scientifiques.",
+          "bullets": [
+            "Enquêtes écologiques de référence",
+            "Engagement des parties prenantes",
+            "Définition des objectifs de restauration"
+          ]
+        },
+        {
+          "title": "Concevoir et Préparer",
+          "description": "Concevez des interventions de restauration détaillées et préparez les sites pour la mise en œuvre.",
+          "bullets": [
+            "Sélection et approvisionnement des espèces",
+            "Préparation du site",
+            "Mobilisation de la communauté"
+          ]
+        },
+        {
+          "title": "Mettre en Œuvre et Planter",
+          "description": "Exécutez les activités de restauration, y compris la plantation, la création d'habitats et la gestion des espèces envahissantes.",
+          "bullets": [
+            "Plantation d'espèces indigènes",
+            "Création de structures d'habitat",
+            "Entretien initial"
+          ]
+        },
+        {
+          "title": "Surveiller et Maintenir",
+          "description": "Surveillance à long terme et gestion adaptative pour assurer le succès de la restauration.",
+          "bullets": [
+            "Surveillance de la biodiversité",
+            "Gestion adaptative",
+            "Vérification de l'impact"
+          ]
+        }
+      ]
+    },
+    "benefits": {
+      "title": "Avantages de la Restauration",
+      "subtitle": "Créez un impact environnemental et social durable",
+      "items": [
+        {
+          "icon": "🌱",
+          "title": "Séquestration du Carbone",
+          "description": "Restaurez les écosystèmes qui capturent et stockent des quantités importantes de carbone."
+        },
+        {
+          "icon": "🦜",
+          "title": "Amélioration de la Biodiversité",
+          "description": "Soutenez et améliorez les efforts de conservation de la biodiversité locale et régionale."
+        },
+        {
+          "icon": "💧",
+          "title": "Services Écosystémiques",
+          "description": "Restaurez les services écosystémiques critiques, y compris la filtration de l'eau et le contrôle des inondations."
+        },
+        {
+          "icon": "👥",
+          "title": "Avantages Communautaires",
+          "description": "Créez des emplois locaux et fournissez des co-bénéfices communautaires grâce à la restauration."
+        }
+      ],
+      "stats": [
+        {
+          "value": "500K",
+          "label": "Arbres Plantés"
+        },
+        {
+          "value": "10K",
+          "label": "Hectares Restaurés"
+        },
+        {
+          "value": "250+",
+          "label": "Espèces Protégées"
+        }
+      ]
+    },
+    "cta": {
+      "title": "Prêt à Restaurer la Nature?",
+      "description": "Associez-vous à nous pour restaurer les écosystèmes et créer un impact environnemental durable.",
+      "primaryButton": "Essai Gratuit",
+      "secondaryButton": "Contacter les Ventes"
+    }
+  }
+}
+

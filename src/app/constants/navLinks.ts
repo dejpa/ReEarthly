@@ -65,19 +65,31 @@ export const footerSections: FooterSection[] = [
     ]
   },
   {
-    title: 'Technology',
+    title: 'Solutions',
     links: [
       {
-        href: '/technology-overview',
-        key: 'technology-overview',
-        label: 'Overview',
-        description: 'Technology overview and solutions'
+        href: '/solutions/carbon-management',
+        key: 'carbonManagement',
+        label: 'Carbon Management',
+        description: 'Carbon footprint tracking and reduction'
       },
       {
-        href: '/energy-storage',
-        key: 'energy-storage',
-        label: 'Energy Storage',
-        description: 'Energy storage solutions'
+        href: '/solutions/circular-economy',
+        key: 'circularEconomy',
+        label: 'Circular Economy',
+        description: 'Waste reduction and resource optimization'
+      },
+      {
+        href: '/solutions/water-conservation',
+        key: 'waterConservation',
+        label: 'Water Conservation',
+        description: 'Smart water management solutions'
+      },
+      {
+        href: '/solutions/ecosystem-restoration',
+        key: 'ecosystemRestoration',
+        label: 'Ecosystem Restoration',
+        description: 'Nature restoration and biodiversity'
       }
     ]
   }
