@@ -1,10 +1,13 @@
 'use client'
 
-import { useTranslations, useLocale } from 'next-intl'
+import { useTranslations } from 'next-intl'
+import { usePathname } from 'next/navigation'
+import Link from 'next/link'
 
 export default function CallToAction() {
   const t = useTranslations()
-  const locale = useLocale()
+  const pathname = usePathname()
+  const locale = pathname.split('/')[1] || 'en'
 
   const benefits = [
     t('cta.benefits.0'),
@@ -55,16 +58,20 @@ export default function CallToAction() {
 
             {/* Modern Buttons */}
             <div className="flex flex-col sm:flex-row gap-6">
-              <button className="group relative inline-flex items-center justify-center px-10 py-5 text-lg font-semibold text-slate-900 bg-white rounded-2xl shadow-2xl hover:shadow-white/25 transition-all duration-300 transform hover:scale-105 hover:-translate-y-1">
-                <span className="relative z-10">{t('cta.primaryButton')}</span>
-                <div className="absolute inset-0 bg-gradient-to-r from-blue-50 to-emerald-50 rounded-2xl opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
-                <svg className="ml-3 w-5 h-5 group-hover:translate-x-1 transition-transform duration-300" fill="currentColor" viewBox="0 0 20 20">
-                  <path fillRule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clipRule="evenodd" />
-                </svg>
-              </button>
-              <button className="inline-flex items-center justify-center px-10 py-5 text-lg font-semibold text-white bg-white/10 backdrop-blur-sm border-2 border-white/30 rounded-2xl hover:bg-white/20 hover:border-white/50 transition-all duration-300 transform hover:scale-105 hover:-translate-y-1">
-                {t('cta.secondaryButton')}
-              </button>
+              <Link href={`/${locale}/contact`}>
+                <button className="group relative inline-flex items-center justify-center px-10 py-5 text-lg font-semibold text-slate-900 bg-white rounded-2xl shadow-2xl hover:shadow-white/25 transition-all duration-300 transform hover:scale-105 hover:-translate-y-1">
+                  <span className="relative z-10">{t('cta.primaryButton')}</span>
+                  <div className="absolute inset-0 bg-gradient-to-r from-blue-50 to-emerald-50 rounded-2xl opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+                  <svg className="ml-3 w-5 h-5 group-hover:translate-x-1 transition-transform duration-300" fill="currentColor" viewBox="0 0 20 20">
+                    <path fillRule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clipRule="evenodd" />
+                  </svg>
+                </button>
+              </Link>
+              <Link href={`/${locale}/contact`}>
+                <button className="inline-flex items-center justify-center px-10 py-5 text-lg font-semibold text-white bg-white/10 backdrop-blur-sm border-2 border-white/30 rounded-2xl hover:bg-white/20 hover:border-white/50 transition-all duration-300 transform hover:scale-105 hover:-translate-y-1">
+                  {t('cta.secondaryButton')}
+                </button>
+              </Link>
             </div>
           </div>
 
